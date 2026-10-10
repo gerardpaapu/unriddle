@@ -56,7 +56,6 @@ There's also some data inside the iframe element but it doesn't seem to be neces
 
 [article-widget](./the-weekender/article-widget.html)
 
-
 ```html
   <iframe
     title="Weekender Oct 10, 2026"
@@ -74,7 +73,21 @@ That url is an HTML page, that's where unstuff hands off to the user.
 GET https://www.riddle.com/embed/a/RHs3ooz0?lazyImages=false&staticHeight=false
 ```
 
-[entry-no-referer.html](./the-weekender/entry-no-referer.html)
+There's two relevant routes:
+
+```
+GET https://www.riddle.com/view/{id}
+GET https://www.riddle.com/embed/a/{id}
+```
+
+The embed route returns a trap page if you send a bad referer:
+
+[embed-bad-referer.html](./the-weekender/embed-bad-referer.html)
+
+but seems happy with no referer:
+
+[embed-no-referer.html](./the-weekender/embed-no-referer.html)
+
 
 There's a bunch of `<script type="text/json">{ ... }</script>` business going on here.
 
@@ -261,3 +274,19 @@ It looks like the only place ModifySettings is called is `Ty::InitRiddleStore`.
 ```
 
 So that gives us a lead on reconfiguring by patching that global.
+
+There's no iframe in the initial HTML, but one is created here (I think).
+
+```js
+ds(
+                  "iframe",
+                  {
+                    id: "riddleIframe",
+                    src: "https://www.riddle.com/a/" + e.media.source.riddleId,
+                    style: { border: 0, width: "100%" },
+                  },
+                  null,
+                  8,
+                  TS,
+                ),
+```
