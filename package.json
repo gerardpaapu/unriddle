@@ -1,0 +1,16 @@
+{
+  "name": "unriddle",
+  "version": "1.0.0",
+  "description": "Ri ddle dot com is the platform that st_ff dot co dot en zed uses to host quizzes.",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "prettier": "^3.9.10",
+    "typescript": "^7.0.2"
+  }
+}
