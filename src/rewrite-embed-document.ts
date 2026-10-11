@@ -25,9 +25,9 @@ const disableAds = (config: any) => {
 
 export const rewriteEmbedDocument = (rawHtml: string) => {
   let dom = htmlparser2.parseDocument(rawHtml);
-  const tag = htmlparser2.DomUtils.getElementById("variable-meta", dom);
-  if (tag) {
-    const json = htmlparser2.DomUtils.textContent(tag);
+  const metaScript = htmlparser2.DomUtils.getElementById("variable-meta", dom);
+  if (metaScript) {
+    const json = htmlparser2.DomUtils.textContent(metaScript);
     const obj = JSON.parse(json);
     disableAds(obj);
 
@@ -35,8 +35,10 @@ export const rewriteEmbedDocument = (rawHtml: string) => {
       `<script type="application/json" id="variable-meta">${JSON.stringify(obj)}</script>`,
     );
     const script = frag.childNodes[0];
-    htmlparser2.DomUtils.replaceElement(tag, script);
+    console.log(`Rewrote the meta-variables`);
+    htmlparser2.DomUtils.replaceElement(metaScript, script);
   }
+
   return htmlparser2.DomUtils.getOuterHTML(dom);
 };
 
