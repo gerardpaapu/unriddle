@@ -23,6 +23,12 @@ const proxy = createProxyMiddleware({
   on: {
     proxyReq: (request) => {
       request.setHeader("Referer", "https://www.riddle.com");
+      if (request.path.startsWith("/embed/ws/handshake/access-token/")) {
+        request.path = request.path.replace(
+          /&r=(.+?)$/,
+          `&r=${btoa("https://www.riddle.com")}`,
+        );
+      }
     },
     proxyRes: responseInterceptor(
       async (responseBuffer, proxyRes, req, res) => {
