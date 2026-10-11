@@ -88,7 +88,6 @@ but seems happy with no referer:
 
 [embed-no-referer.html](./the-weekender/embed-no-referer.html)
 
-
 There's a bunch of `<script type="text/json">{ ... }</script>` business going on here.
 
 Plus one script with js: `https://www.riddle.com/embed/build/assets/app-BUr2aV9H.js`
@@ -274,19 +273,3 @@ It looks like the only place ModifySettings is called is `Ty::InitRiddleStore`.
 ```
 
 So that gives us a lead on reconfiguring by patching that global.
-
-There's no iframe in the initial HTML, but one is created here (I think).
-
-```js
-ds(
-                  "iframe",
-                  {
-                    id: "riddleIframe",
-                    src: "https://www.riddle.com/a/" + e.media.source.riddleId,
-                    style: { border: 0, width: "100%" },
-                  },
-                  null,
-                  8,
-                  TS,
-                ),
-```
