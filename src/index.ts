@@ -53,4 +53,16 @@ const proxy = createProxyMiddleware({
   },
 });
 
+app.get(`/embed/embed-api/ads/{*rest}`, (req, res) => {
+  res.type("html").send(`<html> 
+  <head>
+  </head>
+  <body>
+    <script>
+      // ads removed, by the ad remover
+    </script>
+  </body>
+</html>`);
+});
+
 app.use(proxy);
