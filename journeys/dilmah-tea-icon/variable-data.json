@@ -1,0 +1,2366 @@
+{
+  "blocks": [
+    {
+      "id": 8,
+      "type": "SingleChoice",
+      "typeGroup": "Quiz",
+      "content": {
+        "description": "",
+        "media": {
+          "id": 706656,
+          "type": "UploadImage",
+          "source": {
+            "originalUrl": "https://cdn.riddle.com/embeds/v3/images/originals/q_80/b00/b0069a157d25935679ca9d1a0eccb8bb.webp",
+            "width": 1240,
+            "height": 700,
+            "url": "https://cdn.riddle.com/embeds/v3/images/transformed/w_1240,h_700/a09/a0943d0d16b64e0bc5f855b82c2cba82.webp",
+            "shareUrl": "https://cdn.riddle.com/embeds/v3/images/transformed/w_1240,h_700/a09/a0943d0d16b64e0bc5f855b82c2cba82.webp"
+          },
+          "settings": {
+            "altTag": "",
+            "attributionText": "",
+            "attributionUrl": "",
+            "backgroundColor": "rgba(255,255,255,0)",
+            "overlayColor": "rgba(255,255,255,0)"
+          }
+        },
+        "title": "\u003Ch2\u003EWho holds the record for the highest individual score (302 runs) by a Kiwi in a Test match innings?\u003C/h2\u003E",
+        "quizItems": [
+          {
+            "description": "",
+            "id": 1,
+            "media": null,
+            "title": "Martin Crowe"
+          },
+          {
+            "description": "",
+            "id": 2,
+            "media": null,
+            "title": "Sir Richard Hadlee"
+          },
+          {
+            "description": "",
+            "id": 3,
+            "media": null,
+            "title": "Kane Williamson"
+          },
+          {
+            "description": "",
+            "id": 4,
+            "media": null,
+            "title": "Brendon McCullum"
+          }
+        ]
+      },
+      "options": {
+        "answerExplanationOptions": {
+          "isEnabled": true,
+          "isMediaEnabled": true,
+          "mediaOrientation": "Settings",
+          "position": "Overlay",
+          "type": "One"
+        },
+        "areAnswersShuffled": true,
+        "isMediaEnabled": true,
+        "isRequired": true,
+        "layoutOptions": {
+          "layoutType": "Rows",
+          "canWrapItems": true,
+          "isHeightFlexible": true
+        },
+        "mediaOrientation": "Settings",
+        "quizAnswerOptions": {
+          "isDescriptionVisible": false,
+          "isMediaVisible": true,
+          "isRightOrWrong": true,
+          "mediaOrientation": "Settings",
+          "scoring": []
+        }
+      }
+    },
+    {
+      "id": 1,
+      "type": "SingleChoice",
+      "typeGroup": "Quiz",
+      "content": {
+        "description": "",
+        "media": {
+          "id": 706633,
+          "type": "Pexels",
+          "source": {
+            "originalUrl": "https://cdn.riddle.com/embeds/v3/images/originals/q_80/3f6/3f668021c080c26b056489fdd088fb9b.webp",
+            "width": 6000,
+            "height": 4000,
+            "url": "https://cdn.riddle.com/embeds/v3/images/transformed/w_6000,h_4000/4b2/4b2484aeaf92e6cc7fe297688551b015.webp",
+            "shareUrl": "https://cdn.riddle.com/embeds/v3/images/transformed/w_6000,h_4000/4b2/4b2484aeaf92e6cc7fe297688551b015.webp"
+          },
+          "settings": {
+            "altTag": "",
+            "attributionText": "pexels.com",
+            "attributionUrl": "https://images.pexels.com/photos/1645857/pexels-photo-1645857.jpeg",
+            "backgroundColor": "rgba(255,255,255,0)",
+            "overlayColor": "rgba(255,255,255,0)"
+          }
+        },
+        "title": "\u003Ch2\u003EWhich farm animal only sleeps for short periods lying down to get REM but otherwise dozes standing up?\u003C/h2\u003E",
+        "quizItems": [
+          { "description": "", "id": 1, "media": null, "title": "Horse" },
+          { "description": "", "id": 2, "media": null, "title": "Pig" },
+          {
+            "description": "",
+            "id": 3,
+            "media": null,
+            "title": "Chicken"
+          },
+          { "description": "", "id": 4, "media": null, "title": "Sheep" }
+        ]
+      },
+      "options": {
+        "answerExplanationOptions": {
+          "isEnabled": true,
+          "isMediaEnabled": true,
+          "mediaOrientation": "Settings",
+          "position": "Overlay",
+          "type": "One"
+        },
+        "areAnswersShuffled": true,
+        "isMediaEnabled": true,
+        "isRequired": true,
+        "layoutOptions": {
+          "layoutType": "Rows",
+          "canWrapItems": true,
+          "isHeightFlexible": true
+        },
+        "mediaOrientation": "Settings",
+        "quizAnswerOptions": {
+          "isDescriptionVisible": false,
+          "isMediaVisible": true,
+          "isRightOrWrong": true,
+          "mediaOrientation": "Settings",
+          "scoring": []
+        }
+      }
+    },
+    {
+      "id": 4,
+      "type": "SingleChoice",
+      "typeGroup": "Quiz",
+      "content": {
+        "description": "",
+        "media": {
+          "id": 706634,
+          "type": "Giphy",
+          "source": {
+            "originalUrl": "https://cdn.riddle.com/embeds/v3/images/originals/f52/f5200ff9a40c86ce0fa7398ab010dec3.gif",
+            "width": "500",
+            "height": "375",
+            "url": "https://cdn.riddle.com/embeds/v3/images/q_80,f_mp4,w_500,h_375/f52/f5200ff9a40c86ce0fa7398ab010dec3.mp4",
+            "shareUrl": "https://cdn.riddle.com/embeds/v3/images/q_80,f_mp4,w_500,h_375/f52/f5200ff9a40c86ce0fa7398ab010dec3.mp4",
+            "previewImage": null,
+            "defaultPreviewImage": {
+              "id": 802274,
+              "type": "UploadImage",
+              "source": {
+                "url": "https://cdn.riddle.com/embeds/v3/images/f_jpg,w_500,h_375,p_1/f52/f5200ff9a40c86ce0fa7398ab010dec3.jpg",
+                "width": "500",
+                "height": "375",
+                "originalUrl": "https://cdn.riddle.com/embeds/v3/images/originals/f52/f5200ff9a40c86ce0fa7398ab010dec3.gif",
+                "shareUrl": "https://cdn.riddle.com/embeds/v3/images/f_jpg,w_500,h_375,p_1/f52/f5200ff9a40c86ce0fa7398ab010dec3.jpg"
+              },
+              "settings": []
+            }
+          },
+          "settings": {
+            "altTag": "",
+            "attributionText": "giphy.com",
+            "attributionUrl": "https://media2.giphy.com/media/v1.Y2lkPTM4NjBmNGJmOTQ2a2VvZG53ams2NW1hYTdscmF1b2hpcXF0ZWF3dmlya3U3d2N5dyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/vT21l65Y6g5dC/giphy.gif",
+            "autoplay": true,
+            "loop": true
+          }
+        },
+        "title": "\u003Ch2\u003EWhen sunflowers mature and fully bloom, they stop tracking the sun and permanently face which direction?\u003C/h2\u003E",
+        "quizItems": [
+          { "description": "", "id": 1, "media": null, "title": "East" },
+          { "description": "", "id": 2, "media": null, "title": "West" },
+          { "description": "", "id": 3, "media": null, "title": "North" },
+          { "description": "", "id": 4, "media": null, "title": "South" }
+        ]
+      },
+      "options": {
+        "answerExplanationOptions": {
+          "isEnabled": true,
+          "isMediaEnabled": true,
+          "mediaOrientation": "Settings",
+          "position": "Overlay",
+          "type": "One"
+        },
+        "areAnswersShuffled": true,
+        "isMediaEnabled": true,
+        "isRequired": true,
+        "layoutOptions": {
+          "layoutType": "Rows",
+          "canWrapItems": true,
+          "isHeightFlexible": true
+        },
+        "mediaOrientation": "Settings",
+        "quizAnswerOptions": {
+          "isDescriptionVisible": false,
+          "isMediaVisible": true,
+          "isRightOrWrong": true,
+          "mediaOrientation": "Settings",
+          "scoring": []
+        }
+      }
+    },
+    {
+      "id": 2,
+      "type": "SingleChoice",
+      "typeGroup": "Quiz",
+      "content": {
+        "description": "",
+        "media": {
+          "id": 706635,
+          "type": "Giphy",
+          "source": {
+            "originalUrl": "https://cdn.riddle.com/embeds/v3/images/originals/3aa/3aa45a6cc481b1e3284d241870c5a1b6.gif",
+            "width": "480",
+            "height": "261",
+            "url": "https://cdn.riddle.com/embeds/v3/images/q_80,f_mp4,w_480,h_261/3aa/3aa45a6cc481b1e3284d241870c5a1b6.mp4",
+            "shareUrl": "https://cdn.riddle.com/embeds/v3/images/q_80,f_mp4,w_480,h_261/3aa/3aa45a6cc481b1e3284d241870c5a1b6.mp4",
+            "previewImage": null,
+            "defaultPreviewImage": {
+              "id": 802276,
+              "type": "UploadImage",
+              "source": {
+                "url": "https://cdn.riddle.com/embeds/v3/images/f_jpg,w_480,h_261,p_1/3aa/3aa45a6cc481b1e3284d241870c5a1b6.jpg",
+                "width": "480",
+                "height": "261",
+                "originalUrl": "https://cdn.riddle.com/embeds/v3/images/originals/3aa/3aa45a6cc481b1e3284d241870c5a1b6.gif",
+                "shareUrl": "https://cdn.riddle.com/embeds/v3/images/f_jpg,w_480,h_261,p_1/3aa/3aa45a6cc481b1e3284d241870c5a1b6.jpg"
+              },
+              "settings": []
+            }
+          },
+          "settings": {
+            "altTag": "",
+            "attributionText": "giphy.com",
+            "attributionUrl": "https://media0.giphy.com/media/v1.Y2lkPTM4NjBmNGJmbWgwZXFlNzl5Y2wxcWlwMWQ2OTV5cHpyM3Z5N3QxY204OG5ubTdkNSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/16bJmyPvRbCDu/giphy.gif",
+            "autoplay": true,
+            "loop": true
+          }
+        },
+        "title": "\u003Ch2\u003EWhich Arrested Development star voiced Nick Wilde in Zootopia (2016)?\u003C/h2\u003E",
+        "quizItems": [
+          {
+            "description": "",
+            "id": 1,
+            "media": null,
+            "title": "Jason Bateman"
+          },
+          {
+            "description": "",
+            "id": 2,
+            "media": null,
+            "title": "Michael Cera"
+          },
+          {
+            "description": "",
+            "id": 3,
+            "media": null,
+            "title": "Portia de Rossi"
+          },
+          {
+            "description": "",
+            "id": 4,
+            "media": null,
+            "title": "Jeffrey Tambor"
+          }
+        ]
+      },
+      "options": {
+        "answerExplanationOptions": {
+          "isEnabled": true,
+          "isMediaEnabled": true,
+          "mediaOrientation": "Settings",
+          "position": "Overlay",
+          "type": "One"
+        },
+        "areAnswersShuffled": true,
+        "isMediaEnabled": true,
+        "isRequired": true,
+        "layoutOptions": {
+          "layoutType": "Rows",
+          "canWrapItems": true,
+          "isHeightFlexible": true
+        },
+        "mediaOrientation": "Settings",
+        "quizAnswerOptions": {
+          "isDescriptionVisible": false,
+          "isMediaVisible": true,
+          "isRightOrWrong": true,
+          "mediaOrientation": "Settings",
+          "scoring": []
+        }
+      }
+    },
+    {
+      "id": 3,
+      "type": "SingleChoice",
+      "typeGroup": "Quiz",
+      "content": {
+        "description": "",
+        "media": {
+          "id": 394127,
+          "type": "UploadImage",
+          "source": {
+            "originalUrl": "https://cdn.riddle.com/embeds/v3/images/originals/q_80/984/9840d0bac9101fca6c5c8b562ef010c9.webp",
+            "width": 960,
+            "height": 540,
+            "url": "https://cdn.riddle.com/embeds/v3/images/transformed/w_960,h_540/8c7/8c7cac619aca682b6cd8ca2efa58a155.webp",
+            "shareUrl": "https://cdn.riddle.com/embeds/v3/images/transformed/w_960,h_540/8c7/8c7cac619aca682b6cd8ca2efa58a155.webp"
+          },
+          "settings": {
+            "altTag": "",
+            "attributionText": "Image created with Gemini 2.5",
+            "attributionUrl": "",
+            "backgroundColor": "rgba(255,255,255,0)",
+            "overlayColor": "rgba(255,255,255,0)"
+          }
+        },
+        "title": "\u003Ch2\u003EA donkey engine is traditionally powered by ...\u003C/h2\u003E",
+        "quizItems": [
+          { "description": "", "id": 1, "media": null, "title": "Steam" },
+          { "description": "", "id": 2, "media": null, "title": "Sun" },
+          { "description": "", "id": 3, "media": null, "title": "Wind" },
+          {
+            "description": "",
+            "id": 4,
+            "media": null,
+            "title": "Uranium"
+          }
+        ]
+      },
+      "options": {
+        "answerExplanationOptions": {
+          "isEnabled": true,
+          "isMediaEnabled": true,
+          "mediaOrientation": "Settings",
+          "position": "Overlay",
+          "type": "One"
+        },
+        "areAnswersShuffled": true,
+        "isMediaEnabled": true,
+        "isRequired": true,
+        "layoutOptions": {
+          "layoutType": "Rows",
+          "canWrapItems": true,
+          "isHeightFlexible": true
+        },
+        "mediaOrientation": "Settings",
+        "quizAnswerOptions": {
+          "isDescriptionVisible": false,
+          "isMediaVisible": true,
+          "isRightOrWrong": true,
+          "mediaOrientation": "Settings",
+          "scoring": []
+        }
+      }
+    },
+    {
+      "id": 6,
+      "type": "SingleChoice",
+      "typeGroup": "Quiz",
+      "content": {
+        "description": "",
+        "media": {
+          "id": 706646,
+          "type": "UploadImage",
+          "source": {
+            "originalUrl": "https://cdn.riddle.com/embeds/v3/images/originals/q_80/f2d/f2d345d7229a107d1e401c38f077ef3e.webp",
+            "width": 488,
+            "height": 275,
+            "url": "https://cdn.riddle.com/embeds/v3/images/transformed/w_488,h_275/2e1/2e178c9180cdee84bbf2760a784429da.webp",
+            "shareUrl": "https://cdn.riddle.com/embeds/v3/images/transformed/w_488,h_275/2e1/2e178c9180cdee84bbf2760a784429da.webp"
+          },
+          "settings": {
+            "altTag": "",
+            "attributionText": "",
+            "attributionUrl": "",
+            "backgroundColor": "rgba(255,255,255,0)",
+            "overlayColor": "rgba(255,255,255,0)"
+          }
+        },
+        "title": "\u003Ch2\u003EDuring WWII, who was the head of the infamous Nazi SS?\u003C/h2\u003E",
+        "quizItems": [
+          {
+            "description": "",
+            "id": 1,
+            "media": null,
+            "title": "Hermann G\u00f6ring"
+          },
+          {
+            "description": "",
+            "id": 2,
+            "media": null,
+            "title": "Heinrich Himmler"
+          },
+          {
+            "description": "",
+            "id": 3,
+            "media": null,
+            "title": "Joseph Goebbels"
+          },
+          {
+            "description": "",
+            "id": 4,
+            "media": null,
+            "title": "Albert Speer"
+          }
+        ]
+      },
+      "options": {
+        "answerExplanationOptions": {
+          "isEnabled": true,
+          "isMediaEnabled": true,
+          "mediaOrientation": "Settings",
+          "position": "Overlay",
+          "type": "One"
+        },
+        "areAnswersShuffled": true,
+        "isMediaEnabled": true,
+        "isRequired": true,
+        "layoutOptions": {
+          "layoutType": "Rows",
+          "canWrapItems": true,
+          "isHeightFlexible": true
+        },
+        "mediaOrientation": "Settings",
+        "quizAnswerOptions": {
+          "isDescriptionVisible": false,
+          "isMediaVisible": true,
+          "isRightOrWrong": true,
+          "mediaOrientation": "Settings",
+          "scoring": []
+        }
+      }
+    },
+    {
+      "id": 7,
+      "type": "SingleChoice",
+      "typeGroup": "Quiz",
+      "content": {
+        "description": "",
+        "media": {
+          "id": 706647,
+          "type": "Giphy",
+          "source": {
+            "originalUrl": "https://cdn.riddle.com/embeds/v3/images/originals/620/62062cf5ac9e2e8a5bb4a56ca888c01f.gif",
+            "width": "480",
+            "height": "320",
+            "url": "https://cdn.riddle.com/embeds/v3/images/q_80,f_mp4,w_480,h_320/620/62062cf5ac9e2e8a5bb4a56ca888c01f.mp4",
+            "shareUrl": "https://cdn.riddle.com/embeds/v3/images/q_80,f_mp4,w_480,h_320/620/62062cf5ac9e2e8a5bb4a56ca888c01f.mp4",
+            "previewImage": null,
+            "defaultPreviewImage": {
+              "id": 802289,
+              "type": "UploadImage",
+              "source": {
+                "url": "https://cdn.riddle.com/embeds/v3/images/f_jpg,w_480,h_320,p_1/620/62062cf5ac9e2e8a5bb4a56ca888c01f.jpg",
+                "width": "480",
+                "height": "320",
+                "originalUrl": "https://cdn.riddle.com/embeds/v3/images/originals/620/62062cf5ac9e2e8a5bb4a56ca888c01f.gif",
+                "shareUrl": "https://cdn.riddle.com/embeds/v3/images/f_jpg,w_480,h_320,p_1/620/62062cf5ac9e2e8a5bb4a56ca888c01f.jpg"
+              },
+              "settings": []
+            }
+          },
+          "settings": {
+            "altTag": "",
+            "attributionText": "giphy.com",
+            "attributionUrl": "https://media2.giphy.com/media/v1.Y2lkPTM4NjBmNGJmNmp5OW05aTlrc2xhbjI0ZXh5eXhqb3l1NWs2MGc1ZGJnYXF6YTZkaiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/puiUgSNbuLhbj0irE0/giphy.gif",
+            "autoplay": true,
+            "loop": true
+          }
+        },
+        "title": "\u003Ch2\u003EA klazomaniac can't stop doing what?\u003C/h2\u003E",
+        "quizItems": [
+          { "description": "", "id": 1, "media": null, "title": "Lying" },
+          {
+            "description": "",
+            "id": 2,
+            "media": null,
+            "title": "Stealing"
+          },
+          {
+            "description": "",
+            "id": 3,
+            "media": null,
+            "title": "Dancing"
+          },
+          {
+            "description": "",
+            "id": 4,
+            "media": null,
+            "title": "Shouting"
+          }
+        ]
+      },
+      "options": {
+        "answerExplanationOptions": {
+          "isEnabled": true,
+          "isMediaEnabled": true,
+          "mediaOrientation": "Settings",
+          "position": "Overlay",
+          "type": "One"
+        },
+        "areAnswersShuffled": true,
+        "isMediaEnabled": true,
+        "isRequired": true,
+        "layoutOptions": {
+          "layoutType": "Rows",
+          "canWrapItems": true,
+          "isHeightFlexible": true
+        },
+        "mediaOrientation": "Settings",
+        "quizAnswerOptions": {
+          "isDescriptionVisible": false,
+          "isMediaVisible": true,
+          "isRightOrWrong": true,
+          "mediaOrientation": "Settings",
+          "scoring": []
+        }
+      }
+    },
+    {
+      "id": 24,
+      "type": "Ad",
+      "typeGroup": "General",
+      "content": {
+        "description": "",
+        "media": null,
+        "title": "",
+        "ad": {
+          "iframeAdConfig": null,
+          "teamAdConfig": { "slotId": 1, "variables": [] }
+        }
+      },
+      "options": {
+        "ad": {
+          "isNextButtonVisible": true,
+          "isShowNextButtonAfterDelayEnabled": false,
+          "showNextButtonDelay": 5
+        },
+        "isMediaEnabled": true,
+        "mediaOrientation": "Settings"
+      }
+    },
+    {
+      "id": 9,
+      "type": "SingleChoice",
+      "typeGroup": "Quiz",
+      "content": {
+        "description": "",
+        "media": {
+          "id": 668233,
+          "type": "Pexels",
+          "source": {
+            "originalUrl": "https://cdn.riddle.com/embeds/v3/images/originals/q_80/cd5/cd5e04b2891fb7cc6fb7aff8786fc4dd.webp",
+            "width": 6000,
+            "height": 4000,
+            "url": "https://cdn.riddle.com/embeds/v3/images/transformed/w_6000,h_4000/dfd/dfd52fabb9b1524ec74b1ee5250d6a13.webp",
+            "shareUrl": "https://cdn.riddle.com/embeds/v3/images/transformed/w_6000,h_4000/dfd/dfd52fabb9b1524ec74b1ee5250d6a13.webp"
+          },
+          "settings": {
+            "altTag": "",
+            "attributionText": "pexels.com",
+            "attributionUrl": "https://images.pexels.com/photos/1790556/pexels-photo-1790556.jpeg",
+            "backgroundColor": "rgba(255,255,255,0)",
+            "overlayColor": "rgba(255,255,255,0)"
+          }
+        },
+        "title": "\u003Ch2\u003EWhich film was originally titled 3000?\u003C/h2\u003E",
+        "quizItems": [
+          {
+            "description": "",
+            "id": 1,
+            "media": null,
+            "title": "Pretty Woman"
+          },
+          { "description": "", "id": 2, "media": null, "title": "300" },
+          {
+            "description": "",
+            "id": 3,
+            "media": null,
+            "title": "Liar Liar"
+          },
+          {
+            "description": "",
+            "id": 4,
+            "media": null,
+            "title": "The Poseidon Adventure"
+          }
+        ]
+      },
+      "options": {
+        "answerExplanationOptions": {
+          "isEnabled": true,
+          "isMediaEnabled": true,
+          "mediaOrientation": "Settings",
+          "position": "Overlay",
+          "type": "One"
+        },
+        "areAnswersShuffled": true,
+        "isMediaEnabled": true,
+        "isRequired": true,
+        "layoutOptions": {
+          "layoutType": "Rows",
+          "canWrapItems": true,
+          "isHeightFlexible": true
+        },
+        "mediaOrientation": "Settings",
+        "quizAnswerOptions": {
+          "isDescriptionVisible": false,
+          "isMediaVisible": true,
+          "isRightOrWrong": true,
+          "mediaOrientation": "Settings",
+          "scoring": []
+        }
+      }
+    },
+    {
+      "id": 10,
+      "type": "SingleChoice",
+      "typeGroup": "Quiz",
+      "content": {
+        "description": "",
+        "media": {
+          "id": 706651,
+          "type": "Pexels",
+          "source": {
+            "originalUrl": "https://cdn.riddle.com/embeds/v3/images/originals/q_80/5f9/5f939df87d2e097f332b3fe044038101.webp",
+            "width": 4096,
+            "height": 2729,
+            "url": "https://cdn.riddle.com/embeds/v3/images/transformed/w_4096,h_2729/668/668f4c752dbeee3936a0a83c439ce3cd.webp",
+            "shareUrl": "https://cdn.riddle.com/embeds/v3/images/transformed/w_4096,h_2729/668/668f4c752dbeee3936a0a83c439ce3cd.webp"
+          },
+          "settings": {
+            "altTag": "",
+            "attributionText": "pexels.com",
+            "attributionUrl": "https://images.pexels.com/photos/2900935/pexels-photo-2900935.jpeg",
+            "backgroundColor": "rgba(255,255,255,0)",
+            "overlayColor": "rgba(255,255,255,0)"
+          }
+        },
+        "title": "\u003Ch2\u003EA defining feature of impasto painting is that the paint is ...\u003C/h2\u003E",
+        "quizItems": [
+          {
+            "description": "",
+            "id": 1,
+            "media": null,
+            "title": "Applied thickly"
+          },
+          {
+            "description": "",
+            "id": 2,
+            "media": null,
+            "title": "Only one colour"
+          },
+          {
+            "description": "",
+            "id": 3,
+            "media": null,
+            "title": "Water-based"
+          },
+          {
+            "description": "",
+            "id": 4,
+            "media": null,
+            "title": "Spread evenly"
+          }
+        ]
+      },
+      "options": {
+        "answerExplanationOptions": {
+          "isEnabled": true,
+          "isMediaEnabled": true,
+          "mediaOrientation": "Settings",
+          "position": "Overlay",
+          "type": "One"
+        },
+        "areAnswersShuffled": true,
+        "isMediaEnabled": true,
+        "isRequired": true,
+        "layoutOptions": {
+          "layoutType": "Rows",
+          "canWrapItems": true,
+          "isHeightFlexible": true
+        },
+        "mediaOrientation": "Settings",
+        "quizAnswerOptions": {
+          "isDescriptionVisible": false,
+          "isMediaVisible": true,
+          "isRightOrWrong": true,
+          "mediaOrientation": "Settings",
+          "scoring": []
+        }
+      }
+    },
+    {
+      "id": 5,
+      "type": "SingleChoice",
+      "typeGroup": "Quiz",
+      "content": {
+        "description": "",
+        "media": {
+          "id": 706636,
+          "type": "Pexels",
+          "source": {
+            "originalUrl": "https://cdn.riddle.com/embeds/v3/images/originals/q_80/1c1/1c1034848273899d47afd5a8dc14df73.webp",
+            "width": 6000,
+            "height": 4000,
+            "url": "https://cdn.riddle.com/embeds/v3/images/transformed/w_6000,h_4000/de5/de5530fb92484886f48aa6148f979221.webp",
+            "shareUrl": "https://cdn.riddle.com/embeds/v3/images/transformed/w_6000,h_4000/de5/de5530fb92484886f48aa6148f979221.webp"
+          },
+          "settings": {
+            "altTag": "",
+            "attributionText": "pexels.com",
+            "attributionUrl": "https://images.pexels.com/photos/8885021/pexels-photo-8885021.jpeg",
+            "backgroundColor": "rgba(255,255,255,0)",
+            "overlayColor": "rgba(255,255,255,0)"
+          }
+        },
+        "title": "\u003Ch2\u003EDoctor Neo Cortex is the chief antagonist of which video game hero?\u003C/h2\u003E",
+        "quizItems": [
+          {
+            "description": "",
+            "id": 1,
+            "media": null,
+            "title": "Donkey Kong"
+          },
+          {
+            "description": "",
+            "id": 2,
+            "media": null,
+            "title": "Tomb Raider"
+          },
+          {
+            "description": "",
+            "id": 3,
+            "media": null,
+            "title": "Super Mario 64"
+          },
+          {
+            "description": "",
+            "id": 4,
+            "media": null,
+            "title": "Crash Bandicoot"
+          }
+        ]
+      },
+      "options": {
+        "answerExplanationOptions": {
+          "isEnabled": true,
+          "isMediaEnabled": true,
+          "mediaOrientation": "Settings",
+          "position": "Overlay",
+          "type": "One"
+        },
+        "areAnswersShuffled": true,
+        "isMediaEnabled": true,
+        "isRequired": true,
+        "layoutOptions": {
+          "layoutType": "Rows",
+          "canWrapItems": true,
+          "isHeightFlexible": true
+        },
+        "mediaOrientation": "Settings",
+        "quizAnswerOptions": {
+          "isDescriptionVisible": false,
+          "isMediaVisible": true,
+          "isRightOrWrong": true,
+          "mediaOrientation": "Settings",
+          "scoring": []
+        }
+      }
+    },
+    {
+      "id": 12,
+      "type": "SingleChoice",
+      "typeGroup": "Quiz",
+      "content": {
+        "description": "",
+        "media": {
+          "id": 706652,
+          "type": "Pexels",
+          "source": {
+            "originalUrl": "https://cdn.riddle.com/embeds/v3/images/originals/q_80/603/6037793c8b567262f81ba0e177e693f3.webp",
+            "width": 6000,
+            "height": 3368,
+            "url": "https://cdn.riddle.com/embeds/v3/images/transformed/w_6000,h_3368/f38/f382283aac6545c88cade6b7ea3363ca.webp",
+            "shareUrl": "https://cdn.riddle.com/embeds/v3/images/transformed/w_6000,h_3368/f38/f382283aac6545c88cade6b7ea3363ca.webp"
+          },
+          "settings": {
+            "altTag": "",
+            "attributionText": "pexels.com",
+            "attributionUrl": "https://images.pexels.com/photos/4919433/pexels-photo-4919433.jpeg",
+            "backgroundColor": "rgba(255,255,255,0)",
+            "overlayColor": "rgba(255,255,255,0)"
+          }
+        },
+        "title": "\u003Ch2\u003EThe saying goes, knee high to a ...\u003C/h2\u003E",
+        "quizItems": [
+          {
+            "description": "",
+            "id": 1,
+            "media": null,
+            "title": "Grasshopper"
+          },
+          {
+            "description": "",
+            "id": 2,
+            "media": null,
+            "title": "Ladybug"
+          },
+          {
+            "description": "",
+            "id": 3,
+            "media": null,
+            "title": "Caterpillar"
+          },
+          {
+            "description": "",
+            "id": 4,
+            "media": null,
+            "title": "Chihuahua"
+          }
+        ]
+      },
+      "options": {
+        "answerExplanationOptions": {
+          "isEnabled": true,
+          "isMediaEnabled": true,
+          "mediaOrientation": "Settings",
+          "position": "Overlay",
+          "type": "One"
+        },
+        "areAnswersShuffled": true,
+        "isMediaEnabled": true,
+        "isRequired": true,
+        "layoutOptions": {
+          "layoutType": "Rows",
+          "canWrapItems": true,
+          "isHeightFlexible": true
+        },
+        "mediaOrientation": "Settings",
+        "quizAnswerOptions": {
+          "isDescriptionVisible": false,
+          "isMediaVisible": true,
+          "isRightOrWrong": true,
+          "mediaOrientation": "Settings",
+          "scoring": []
+        }
+      }
+    },
+    {
+      "id": 14,
+      "type": "SingleChoice",
+      "typeGroup": "Quiz",
+      "content": {
+        "description": "",
+        "media": {
+          "id": 706653,
+          "type": "Pexels",
+          "source": {
+            "originalUrl": "https://cdn.riddle.com/embeds/v3/images/originals/q_80/40a/40a611d5ab5f764716fce877b9f8e87a.webp",
+            "width": 5383,
+            "height": 3511,
+            "url": "https://cdn.riddle.com/embeds/v3/images/transformed/w_5383,h_3511/2f0/2f046e90ac128e6a8027f3e731900608.webp",
+            "shareUrl": "https://cdn.riddle.com/embeds/v3/images/transformed/w_5383,h_3511/2f0/2f046e90ac128e6a8027f3e731900608.webp"
+          },
+          "settings": {
+            "altTag": "",
+            "attributionText": "pexels.com",
+            "attributionUrl": "https://images.pexels.com/photos/159275/macro-focus-cogwheel-gear-159275.jpeg",
+            "backgroundColor": "rgba(255,255,255,0)",
+            "overlayColor": "rgba(255,255,255,0)"
+          }
+        },
+        "title": "\u003Ch2\u003EWhich scientist's book laid the foundations for classical mechanics?\u003C/h2\u003E",
+        "quizItems": [
+          {
+            "description": "",
+            "id": 1,
+            "media": null,
+            "title": "Sir Isaac Newton"
+          },
+          {
+            "description": "",
+            "id": 2,
+            "media": null,
+            "title": "Edmond Halley"
+          },
+          {
+            "description": "",
+            "id": 3,
+            "media": null,
+            "title": "Johannes Kepler"
+          },
+          {
+            "description": "",
+            "id": 4,
+            "media": null,
+            "title": "Galileo Galilei"
+          }
+        ]
+      },
+      "options": {
+        "answerExplanationOptions": {
+          "isEnabled": true,
+          "isMediaEnabled": true,
+          "mediaOrientation": "Settings",
+          "position": "Overlay",
+          "type": "One"
+        },
+        "areAnswersShuffled": true,
+        "isMediaEnabled": true,
+        "isRequired": true,
+        "layoutOptions": {
+          "layoutType": "Rows",
+          "canWrapItems": true,
+          "isHeightFlexible": true
+        },
+        "mediaOrientation": "Settings",
+        "quizAnswerOptions": {
+          "isDescriptionVisible": false,
+          "isMediaVisible": true,
+          "isRightOrWrong": true,
+          "mediaOrientation": "Settings",
+          "scoring": []
+        }
+      }
+    },
+    {
+      "id": 15,
+      "type": "SingleChoice",
+      "typeGroup": "Quiz",
+      "content": {
+        "description": "",
+        "media": {
+          "id": 706654,
+          "type": "Giphy",
+          "source": {
+            "originalUrl": "https://cdn.riddle.com/embeds/v3/images/originals/cd9/cd94544bb71844594022d723613ed933.gif",
+            "width": "245",
+            "height": "184",
+            "url": "https://cdn.riddle.com/embeds/v3/images/q_80,f_mp4,w_245,h_184/cd9/cd94544bb71844594022d723613ed933.mp4",
+            "shareUrl": "https://cdn.riddle.com/embeds/v3/images/q_80,f_mp4,w_245,h_184/cd9/cd94544bb71844594022d723613ed933.mp4",
+            "previewImage": null,
+            "defaultPreviewImage": {
+              "id": 802298,
+              "type": "UploadImage",
+              "source": {
+                "url": "https://cdn.riddle.com/embeds/v3/images/f_jpg,w_245,h_184,p_1/cd9/cd94544bb71844594022d723613ed933.jpg",
+                "width": "245",
+                "height": "184",
+                "originalUrl": "https://cdn.riddle.com/embeds/v3/images/originals/cd9/cd94544bb71844594022d723613ed933.gif",
+                "shareUrl": "https://cdn.riddle.com/embeds/v3/images/f_jpg,w_245,h_184,p_1/cd9/cd94544bb71844594022d723613ed933.jpg"
+              },
+              "settings": []
+            }
+          },
+          "settings": {
+            "altTag": "",
+            "attributionText": "giphy.com",
+            "attributionUrl": "https://media3.giphy.com/media/v1.Y2lkPTM4NjBmNGJmYmtmcGI2YWIwN2dkMGxhbDFidTBxNjhrZDdmNm01b2V2Y3h3bW82ZyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/13xZn5Go61QHzG/giphy.gif",
+            "autoplay": false,
+            "loop": true
+          }
+        },
+        "title": "\u003Ch2\u003EWhich Greek god was the father of Polyphemus, the most famous of the Cyclopes?\u003C/h2\u003E",
+        "quizItems": [
+          {
+            "description": "",
+            "id": 1,
+            "media": null,
+            "title": "Poseidon"
+          },
+          { "description": "", "id": 2, "media": null, "title": "Zeus" },
+          {
+            "description": "",
+            "id": 3,
+            "media": null,
+            "title": "Apollo"
+          },
+          { "description": "", "id": 4, "media": null, "title": "Ares" }
+        ]
+      },
+      "options": {
+        "answerExplanationOptions": {
+          "isEnabled": true,
+          "isMediaEnabled": true,
+          "mediaOrientation": "Settings",
+          "position": "Overlay",
+          "type": "One"
+        },
+        "areAnswersShuffled": true,
+        "isMediaEnabled": true,
+        "isRequired": true,
+        "layoutOptions": {
+          "layoutType": "Rows",
+          "canWrapItems": true,
+          "isHeightFlexible": true
+        },
+        "mediaOrientation": "Settings",
+        "quizAnswerOptions": {
+          "isDescriptionVisible": false,
+          "isMediaVisible": true,
+          "isRightOrWrong": true,
+          "mediaOrientation": "Settings",
+          "scoring": []
+        }
+      }
+    },
+    {
+      "id": 11,
+      "type": "SingleChoice",
+      "typeGroup": "Quiz",
+      "content": {
+        "description": "",
+        "media": {
+          "id": 706655,
+          "type": "Giphy",
+          "source": {
+            "originalUrl": "https://cdn.riddle.com/embeds/v3/images/originals/f8e/f8e83a3e76e83415d34c0e5c5388a21b.gif",
+            "width": "323",
+            "height": "222",
+            "url": "https://cdn.riddle.com/embeds/v3/images/q_80,f_mp4,w_323,h_222/f8e/f8e83a3e76e83415d34c0e5c5388a21b.mp4",
+            "shareUrl": "https://cdn.riddle.com/embeds/v3/images/q_80,f_mp4,w_323,h_222/f8e/f8e83a3e76e83415d34c0e5c5388a21b.mp4",
+            "previewImage": null,
+            "defaultPreviewImage": {
+              "id": 802300,
+              "type": "UploadImage",
+              "source": {
+                "url": "https://cdn.riddle.com/embeds/v3/images/f_jpg,w_323,h_222,p_1/f8e/f8e83a3e76e83415d34c0e5c5388a21b.jpg",
+                "width": "323",
+                "height": "222",
+                "originalUrl": "https://cdn.riddle.com/embeds/v3/images/originals/f8e/f8e83a3e76e83415d34c0e5c5388a21b.gif",
+                "shareUrl": "https://cdn.riddle.com/embeds/v3/images/f_jpg,w_323,h_222,p_1/f8e/f8e83a3e76e83415d34c0e5c5388a21b.jpg"
+              },
+              "settings": []
+            }
+          },
+          "settings": {
+            "altTag": "",
+            "attributionText": "giphy.com",
+            "attributionUrl": "https://media1.giphy.com/media/v1.Y2lkPTM4NjBmNGJmYm5sYjR0emo3MW1zODgxbTVwNDk0emM3OHBjNzA4Ym5kYWNtMWY2MyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/g6HBNoB9h9F6/giphy.gif",
+            "autoplay": true,
+            "loop": true
+          }
+        },
+        "title": "\u003Ch2\u003EWhat beverage does The Eagles' Hotel California have \"on ice\"?\u003C/h2\u003E",
+        "quizItems": [
+          {
+            "description": "",
+            "id": 1,
+            "media": null,
+            "title": "Red whiskey"
+          },
+          {
+            "description": "",
+            "id": 2,
+            "media": null,
+            "title": "Green lemonade"
+          },
+          {
+            "description": "",
+            "id": 3,
+            "media": null,
+            "title": "Orange chardonnay"
+          },
+          {
+            "description": "",
+            "id": 4,
+            "media": null,
+            "title": "Pink champagne"
+          }
+        ]
+      },
+      "options": {
+        "answerExplanationOptions": {
+          "isEnabled": true,
+          "isMediaEnabled": true,
+          "mediaOrientation": "Settings",
+          "position": "Overlay",
+          "type": "One"
+        },
+        "areAnswersShuffled": true,
+        "isMediaEnabled": true,
+        "isRequired": true,
+        "layoutOptions": {
+          "layoutType": "Rows",
+          "canWrapItems": true,
+          "isHeightFlexible": true
+        },
+        "mediaOrientation": "Settings",
+        "quizAnswerOptions": {
+          "isDescriptionVisible": false,
+          "isMediaVisible": true,
+          "isRightOrWrong": true,
+          "mediaOrientation": "Settings",
+          "scoring": []
+        }
+      }
+    },
+    {
+      "id": 13,
+      "type": "SingleChoice",
+      "typeGroup": "Quiz",
+      "content": {
+        "description": "",
+        "media": {
+          "id": 717640,
+          "type": "UploadImage",
+          "source": {
+            "originalUrl": "https://cdn.riddle.com/embeds/v3/images/originals/q_80/b76/b7603dbfd6b7ee922e76822266591d2f.webp",
+            "width": 734,
+            "height": 413,
+            "url": "https://cdn.riddle.com/embeds/v3/images/transformed/w_734,h_413/14e/14e3af727e8b613d0c7a1e5b181c67b0.webp",
+            "shareUrl": "https://cdn.riddle.com/embeds/v3/images/transformed/w_734,h_413/14e/14e3af727e8b613d0c7a1e5b181c67b0.webp"
+          },
+          "settings": {
+            "altTag": "",
+            "attributionText": "",
+            "attributionUrl": "",
+            "backgroundColor": "rgba(255,255,255,0)",
+            "overlayColor": "rgba(255,255,255,0)"
+          }
+        },
+        "title": "\u003Ch2\u003EWhich of these tops the Official Aotearoa Top 40 Singles chart for the week October 9-15?\u003C/h2\u003E",
+        "quizItems": [
+          {
+            "description": "",
+            "id": 1,
+            "media": null,
+            "title": "Choosin' Texas (Ella Langley)"
+          },
+          {
+            "description": "",
+            "id": 2,
+            "media": null,
+            "title": "Man I Need (Olivia Dean)"
+          },
+          {
+            "description": "",
+            "id": 3,
+            "media": null,
+            "title": "Rein Me In (Sam Fender)"
+          },
+          {
+            "description": "",
+            "id": 4,
+            "media": null,
+            "title": "Nicole Kidman (Ad\u00e9la)"
+          }
+        ]
+      },
+      "options": {
+        "answerExplanationOptions": {
+          "isEnabled": true,
+          "isMediaEnabled": true,
+          "mediaOrientation": "Settings",
+          "position": "Overlay",
+          "type": "One"
+        },
+        "areAnswersShuffled": true,
+        "isMediaEnabled": true,
+        "isRequired": true,
+        "layoutOptions": {
+          "layoutType": "Rows",
+          "canWrapItems": true,
+          "isHeightFlexible": true
+        },
+        "mediaOrientation": "Settings",
+        "quizAnswerOptions": {
+          "isDescriptionVisible": false,
+          "isMediaVisible": true,
+          "isRightOrWrong": true,
+          "mediaOrientation": "Settings",
+          "scoring": []
+        }
+      }
+    },
+    {
+      "id": 25,
+      "type": "Ad",
+      "typeGroup": "General",
+      "content": {
+        "description": "",
+        "media": null,
+        "title": "",
+        "ad": {
+          "teamAdConfig": { "slotId": 1, "variables": [] },
+          "iframeAdConfig": null
+        }
+      },
+      "options": {
+        "ad": {
+          "isNextButtonVisible": true,
+          "isShowNextButtonAfterDelayEnabled": false,
+          "showNextButtonDelay": 5
+        },
+        "isMediaEnabled": true,
+        "mediaOrientation": "Settings"
+      }
+    }
+  ],
+  "presetId": null,
+  "results": [
+    {
+      "id": 16,
+      "type": "ResultBuilder",
+      "typeGroup": "Result",
+      "content": {
+        "blocks": [
+          {
+            "value": {
+              "displaySettings": {
+                "colorBg": "rgba(0, 0, 0, 0.702)",
+                "colorCircle": "$buttonColor",
+                "colorCircleBg": "rgba(255, 255, 255, 0.502)",
+                "colorText": "#ffffff",
+                "format": "ScoreTotalScore",
+                "isFillingEnabled": false,
+                "size": 50
+              }
+            },
+            "height": 6,
+            "id": 1,
+            "type": "ResultScore",
+            "width": 9,
+            "x": 1,
+            "y": 1,
+            "zIndex": 2,
+            "marginTop": 0,
+            "marginBottom": 0
+          },
+          {
+            "value": {
+              "text": "\u003Ch1 style=\"text-align: center;\"\u003E\u003Cspan style=\"color: var(--preview-color-btn); font-size: 24px;\"\u003ETime for a reset?\u003C/span\u003E\u003C/h1\u003E\u003Cp\u003E\u003Cspan style=\"color: var(--preview-color-btn); font-size: 24px;\"\u003ESome days call for a pause. Discover the ritual behind a better cuppa.\u003C/span\u003E\u003C/p\u003E"
+            },
+            "height": 5,
+            "id": 2,
+            "type": "Text",
+            "width": 24,
+            "x": 1,
+            "y": 15,
+            "zIndex": 3,
+            "marginTop": 0,
+            "marginBottom": 0
+          },
+          {
+            "value": {
+              "content": {
+                "isOpenInNewTabEnabled": true,
+                "label": "Read the article on Stuff",
+                "url": "https://sponsoredinteractive.stuff.co.nz/a-better-cup-shared/index.html"
+              },
+              "style": {
+                "color": {
+                  "bg": "$buttonColor",
+                  "bgHover": "$buttonColor",
+                  "border": "$buttonColor",
+                  "borderHover": "$buttonColor",
+                  "text": "$buttonTextColor",
+                  "textHover": "$buttonTextColor"
+                },
+                "presetId": null,
+                "sizing": {
+                  "borderRadius": {
+                    "bottomLeft": "50px",
+                    "bottomRight": "50px",
+                    "isOneValueEnabled": true,
+                    "topLeft": "50px",
+                    "topRight": "50px"
+                  },
+                  "borderWidth": {
+                    "bottom": "0px",
+                    "isOneValueEnabled": true,
+                    "left": "0px",
+                    "right": "0px",
+                    "top": "0px"
+                  },
+                  "isFillingEnabled": false,
+                  "padding": {
+                    "bottom": "30px",
+                    "isOneValueEnabled": false,
+                    "left": "40px",
+                    "right": "40px",
+                    "top": "30px"
+                  }
+                },
+                "text": {
+                  "captitalization": "none",
+                  "fontFamily": "none",
+                  "fontSize": "2rem",
+                  "fontStyle": "normal",
+                  "fontWeight": "n600",
+                  "letterSpacing": "0.12rem",
+                  "lineHeight": "1.4rem",
+                  "textAlign": "center"
+                }
+              }
+            },
+            "height": 4,
+            "id": 3,
+            "type": "Button",
+            "width": 24,
+            "x": 1,
+            "y": 20,
+            "zIndex": 4,
+            "marginTop": 0,
+            "marginBottom": 0
+          },
+          {
+            "value": {
+              "displaySettings": {
+                "buffer": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": false,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "description": null,
+                "email": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": true,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "evernote": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": false,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "facebook": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": true,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "flipboard": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": false,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "image": null,
+                "instapaper": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": false,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "isLabelEnabled": true,
+                "isOverwriteValuesEnabled": false,
+                "label": "",
+                "line": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": false,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "linkedin": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": false,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "messenger": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": false,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "odnoklassniki": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": false,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "pinterest": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": false,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "pocket": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": false,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "reddit": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": false,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "skype": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": false,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "sms": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": false,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "telegram": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": false,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "title": null,
+                "tumblr": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": false,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "twitter": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": true,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "url": null,
+                "viber": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": false,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "vk": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": false,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "weibo": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": false,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "whatsapp": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": true,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "xing": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": false,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "yammer": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": false,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                }
+              },
+              "style": {
+                "color": {
+                  "bgColor": "#ffffff00",
+                  "buttonBgColor": "$buttonColor",
+                  "buttonBgColorHover": "#333",
+                  "buttonIconColor": "#fff",
+                  "buttonIconColorHover": "#fff",
+                  "isBrandColorEnabled": false,
+                  "textColor": "$footerTextColor"
+                },
+                "sizing": {
+                  "buttonBorderRadius": "50%",
+                  "buttonGap": "0.8rem",
+                  "buttonIconSize": "2.1rem",
+                  "buttonSize": "3.6rem"
+                },
+                "text": {
+                  "captitalization": "uppercase",
+                  "fontFamily": "none",
+                  "fontSize": "1.6rem",
+                  "fontStyle": "normal",
+                  "fontWeight": "n400",
+                  "letterSpacing": "0.12rem",
+                  "lineHeight": "1.4rem",
+                  "textAlign": "inherit"
+                }
+              }
+            },
+            "height": 2,
+            "id": 4,
+            "type": "ShareButtons",
+            "width": 24,
+            "x": 1,
+            "y": 24,
+            "zIndex": 1,
+            "marginTop": 0,
+            "marginBottom": 0
+          },
+          {
+            "value": {
+              "displaySettings": { "isBlurredBgEnabled": true },
+              "media": {
+                "id": 699768,
+                "type": "UploadImage",
+                "source": {
+                  "originalUrl": "https://cdn.riddle.com/embeds/v3/images/originals/q_80/735/735c22c7a9a152d9f0ad6f48c7e846dd.webp",
+                  "width": 1440,
+                  "height": 960,
+                  "url": "https://cdn.riddle.com/embeds/v3/images/transformed/w_1440,h_960/a7f/a7fd1494a921c0576f419bcbda944f0f.webp",
+                  "shareUrl": "https://cdn.riddle.com/embeds/v3/images/transformed/w_1440,h_960/a7f/a7fd1494a921c0576f419bcbda944f0f.webp"
+                },
+                "settings": {
+                  "altTag": "",
+                  "attributionText": "",
+                  "attributionUrl": "",
+                  "backgroundColor": "rgba(255,255,255,0)",
+                  "overlayColor": "rgba(255,255,255,0)"
+                }
+              },
+              "mediaFit": "Cover"
+            },
+            "height": 15,
+            "id": 5,
+            "type": "Media",
+            "width": 26,
+            "x": 0,
+            "y": 0,
+            "zIndex": 1
+          }
+        ],
+        "height": 33
+      }
+    },
+    {
+      "id": 22,
+      "type": "ResultBuilder",
+      "typeGroup": "Result",
+      "content": {
+        "blocks": [
+          {
+            "value": {
+              "displaySettings": {
+                "colorBg": "rgba(0, 0, 0, 0.702)",
+                "colorCircle": "$buttonColor",
+                "colorCircleBg": "rgba(255, 255, 255, 0.502)",
+                "colorText": "#ffffff",
+                "format": "ScoreTotalScore",
+                "isFillingEnabled": false,
+                "size": 50
+              }
+            },
+            "height": 6,
+            "id": 1,
+            "type": "ResultScore",
+            "width": 9,
+            "x": 1,
+            "y": 1,
+            "zIndex": 2,
+            "marginTop": 0,
+            "marginBottom": 0
+          },
+          {
+            "value": {
+              "text": "\u003Ch1 style=\"text-align: center;\"\u003E\u003Cspan style=\"color: var(--preview-color-btn); font-size: 24px;\"\u003ENicely brewed\u003C/span\u003E\u003C/h1\u003E\u003Cp\u003E\u003Cspan style=\"color: var(--preview-color-btn); font-size: 24px;\"\u003EA solid result. Now take a moment to discover what sits behind a better cuppa.\u003C/span\u003E\u003C/p\u003E"
+            },
+            "height": 5,
+            "id": 2,
+            "type": "Text",
+            "width": 24,
+            "x": 1,
+            "y": 15,
+            "zIndex": 3,
+            "marginTop": 0,
+            "marginBottom": 0
+          },
+          {
+            "value": {
+              "content": {
+                "isOpenInNewTabEnabled": true,
+                "label": "Read the article on Stuff",
+                "url": "https://sponsoredinteractive.stuff.co.nz/a-better-cup-shared/index.html"
+              },
+              "style": {
+                "color": {
+                  "bg": "$buttonColor",
+                  "bgHover": "$buttonColor",
+                  "border": "$buttonColor",
+                  "borderHover": "$buttonColor",
+                  "text": "$buttonTextColor",
+                  "textHover": "$buttonTextColor"
+                },
+                "presetId": null,
+                "sizing": {
+                  "borderRadius": {
+                    "bottomLeft": "50px",
+                    "bottomRight": "50px",
+                    "isOneValueEnabled": true,
+                    "topLeft": "50px",
+                    "topRight": "50px"
+                  },
+                  "borderWidth": {
+                    "bottom": "0px",
+                    "isOneValueEnabled": true,
+                    "left": "0px",
+                    "right": "0px",
+                    "top": "0px"
+                  },
+                  "isFillingEnabled": false,
+                  "padding": {
+                    "bottom": "30px",
+                    "isOneValueEnabled": false,
+                    "left": "40px",
+                    "right": "40px",
+                    "top": "30px"
+                  }
+                },
+                "text": {
+                  "captitalization": "none",
+                  "fontFamily": "none",
+                  "fontSize": "2rem",
+                  "fontStyle": "normal",
+                  "fontWeight": "n600",
+                  "letterSpacing": "0.12rem",
+                  "lineHeight": "1.4rem",
+                  "textAlign": "center"
+                }
+              }
+            },
+            "height": 4,
+            "id": 3,
+            "type": "Button",
+            "width": 24,
+            "x": 1,
+            "y": 20,
+            "zIndex": 4,
+            "marginTop": 0,
+            "marginBottom": 0
+          },
+          {
+            "value": {
+              "displaySettings": {
+                "buffer": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": false,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "description": null,
+                "email": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": true,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "evernote": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": false,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "facebook": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": true,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "flipboard": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": false,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "image": null,
+                "instapaper": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": false,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "isLabelEnabled": true,
+                "isOverwriteValuesEnabled": false,
+                "label": "",
+                "line": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": false,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "linkedin": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": false,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "messenger": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": false,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "odnoklassniki": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": false,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "pinterest": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": false,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "pocket": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": false,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "reddit": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": false,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "skype": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": false,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "sms": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": false,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "telegram": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": false,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "title": null,
+                "tumblr": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": false,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "twitter": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": true,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "url": null,
+                "viber": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": false,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "vk": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": false,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "weibo": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": false,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "whatsapp": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": true,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "xing": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": false,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "yammer": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": false,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                }
+              },
+              "style": {
+                "color": {
+                  "bgColor": "#ffffff00",
+                  "buttonBgColor": "$buttonColor",
+                  "buttonBgColorHover": "#333",
+                  "buttonIconColor": "#fff",
+                  "buttonIconColorHover": "#fff",
+                  "isBrandColorEnabled": false,
+                  "textColor": "$footerTextColor"
+                },
+                "sizing": {
+                  "buttonBorderRadius": "50%",
+                  "buttonGap": "0.8rem",
+                  "buttonIconSize": "2.1rem",
+                  "buttonSize": "3.6rem"
+                },
+                "text": {
+                  "captitalization": "uppercase",
+                  "fontFamily": "none",
+                  "fontSize": "1.6rem",
+                  "fontStyle": "normal",
+                  "fontWeight": "n400",
+                  "letterSpacing": "0.12rem",
+                  "lineHeight": "1.4rem",
+                  "textAlign": "inherit"
+                }
+              }
+            },
+            "height": 2,
+            "id": 4,
+            "type": "ShareButtons",
+            "width": 24,
+            "x": 1,
+            "y": 24,
+            "zIndex": 1,
+            "marginTop": 0,
+            "marginBottom": 0
+          },
+          {
+            "value": {
+              "displaySettings": { "isBlurredBgEnabled": true },
+              "media": {
+                "id": 715992,
+                "type": "UploadImage",
+                "source": {
+                  "originalUrl": "https://cdn.riddle.com/embeds/v3/images/originals/q_80/656/656d161399010ad197dbaf1a92f4f124.webp",
+                  "width": 2185,
+                  "height": 960,
+                  "url": "https://cdn.riddle.com/embeds/v3/images/transformed/w_2185,h_960/aab/aab389c5fa39a751b48d4b8a7f1394c7.webp",
+                  "shareUrl": "https://cdn.riddle.com/embeds/v3/images/transformed/w_2185,h_960/aab/aab389c5fa39a751b48d4b8a7f1394c7.webp"
+                },
+                "settings": {
+                  "altTag": "",
+                  "attributionText": "",
+                  "attributionUrl": "",
+                  "backgroundColor": "rgba(255,255,255,0)",
+                  "overlayColor": "rgba(255,255,255,0)"
+                }
+              },
+              "mediaFit": "Cover"
+            },
+            "height": 15,
+            "id": 5,
+            "type": "Media",
+            "width": 26,
+            "x": 0,
+            "y": 0,
+            "zIndex": 1
+          }
+        ],
+        "height": 33
+      }
+    },
+    {
+      "id": 23,
+      "type": "ResultBuilder",
+      "typeGroup": "Result",
+      "content": {
+        "blocks": [
+          {
+            "value": {
+              "displaySettings": {
+                "colorBg": "rgba(0, 0, 0, 0.702)",
+                "colorCircle": "$buttonColor",
+                "colorCircleBg": "rgba(255, 255, 255, 0.502)",
+                "colorText": "#ffffff",
+                "format": "ScoreTotalScore",
+                "isFillingEnabled": false,
+                "size": 50
+              }
+            },
+            "height": 6,
+            "id": 1,
+            "type": "ResultScore",
+            "width": 9,
+            "x": 1,
+            "y": 1,
+            "zIndex": 2,
+            "marginTop": 0,
+            "marginBottom": 0
+          },
+          {
+            "value": {
+              "text": "\u003Ch1 style=\"text-align: center;\"\u003E\u003Cspan style=\"color: var(--preview-color-btn); font-size: 24px;\"\u003EYou're on fire\u003C/span\u003E\u003C/h1\u003E\u003Cp\u003E\u003Cspan style=\"color: var(--preview-color-btn); font-size: 24px;\"\u003EYou've earned a cuppa. Discover the people, purpose and care behind every cup.\u003C/span\u003E\u003C/p\u003E"
+            },
+            "height": 5,
+            "id": 2,
+            "type": "Text",
+            "width": 24,
+            "x": 1,
+            "y": 15,
+            "zIndex": 3,
+            "marginTop": 0,
+            "marginBottom": 0
+          },
+          {
+            "value": {
+              "content": {
+                "isOpenInNewTabEnabled": true,
+                "label": "Read the article on Stuff",
+                "url": "https://sponsoredinteractive.stuff.co.nz/a-better-cup-shared/index.html"
+              },
+              "style": {
+                "color": {
+                  "bg": "$buttonColor",
+                  "bgHover": "$buttonColor",
+                  "border": "$buttonColor",
+                  "borderHover": "$buttonColor",
+                  "text": "$buttonTextColor",
+                  "textHover": "$buttonTextColor"
+                },
+                "presetId": null,
+                "sizing": {
+                  "borderRadius": {
+                    "bottomLeft": "50px",
+                    "bottomRight": "50px",
+                    "isOneValueEnabled": true,
+                    "topLeft": "50px",
+                    "topRight": "50px"
+                  },
+                  "borderWidth": {
+                    "bottom": "0px",
+                    "isOneValueEnabled": true,
+                    "left": "0px",
+                    "right": "0px",
+                    "top": "0px"
+                  },
+                  "isFillingEnabled": false,
+                  "padding": {
+                    "bottom": "30px",
+                    "isOneValueEnabled": false,
+                    "left": "40px",
+                    "right": "40px",
+                    "top": "30px"
+                  }
+                },
+                "text": {
+                  "captitalization": "none",
+                  "fontFamily": "none",
+                  "fontSize": "2rem",
+                  "fontStyle": "normal",
+                  "fontWeight": "n600",
+                  "letterSpacing": "0.12rem",
+                  "lineHeight": "1.4rem",
+                  "textAlign": "center"
+                }
+              }
+            },
+            "height": 4,
+            "id": 3,
+            "type": "Button",
+            "width": 24,
+            "x": 1,
+            "y": 20,
+            "zIndex": 4,
+            "marginTop": 0,
+            "marginBottom": 0
+          },
+          {
+            "value": {
+              "displaySettings": {
+                "buffer": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": false,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "description": null,
+                "email": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": true,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "evernote": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": false,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "facebook": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": true,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "flipboard": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": false,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "image": null,
+                "instapaper": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": false,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "isLabelEnabled": true,
+                "isOverwriteValuesEnabled": false,
+                "label": "",
+                "line": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": false,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "linkedin": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": false,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "messenger": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": false,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "odnoklassniki": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": false,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "pinterest": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": false,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "pocket": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": false,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "reddit": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": false,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "skype": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": false,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "sms": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": false,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "telegram": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": false,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "title": null,
+                "tumblr": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": false,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "twitter": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": true,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "url": null,
+                "viber": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": false,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "vk": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": false,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "weibo": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": false,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "whatsapp": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": true,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "xing": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": false,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                },
+                "yammer": {
+                  "description": null,
+                  "image": null,
+                  "isEnabled": false,
+                  "isOverwriteValuesEnabled": false,
+                  "title": null,
+                  "url": ""
+                }
+              },
+              "style": {
+                "color": {
+                  "bgColor": "#ffffff00",
+                  "buttonBgColor": "$buttonColor",
+                  "buttonBgColorHover": "#333",
+                  "buttonIconColor": "#fff",
+                  "buttonIconColorHover": "#fff",
+                  "isBrandColorEnabled": false,
+                  "textColor": "$footerTextColor"
+                },
+                "sizing": {
+                  "buttonBorderRadius": "50%",
+                  "buttonGap": "0.8rem",
+                  "buttonIconSize": "2.1rem",
+                  "buttonSize": "3.6rem"
+                },
+                "text": {
+                  "captitalization": "uppercase",
+                  "fontFamily": "none",
+                  "fontSize": "1.6rem",
+                  "fontStyle": "normal",
+                  "fontWeight": "n400",
+                  "letterSpacing": "0.12rem",
+                  "lineHeight": "1.4rem",
+                  "textAlign": "inherit"
+                }
+              }
+            },
+            "height": 2,
+            "id": 4,
+            "type": "ShareButtons",
+            "width": 24,
+            "x": 1,
+            "y": 24,
+            "zIndex": 1,
+            "marginTop": 0,
+            "marginBottom": 0
+          },
+          {
+            "value": {
+              "displaySettings": { "isBlurredBgEnabled": true },
+              "media": {
+                "id": 715978,
+                "type": "UploadImage",
+                "source": {
+                  "originalUrl": "https://cdn.riddle.com/embeds/v3/images/originals/q_80/09c/09c5b9891c4ee7e984a4b13771a4fd19.webp",
+                  "width": 960,
+                  "height": 540,
+                  "url": "https://cdn.riddle.com/embeds/v3/images/transformed/w_960,h_540/931/9310196705e8e02af3e36fc4c463054b.webp",
+                  "shareUrl": "https://cdn.riddle.com/embeds/v3/images/transformed/w_960,h_540/931/9310196705e8e02af3e36fc4c463054b.webp"
+                },
+                "settings": {
+                  "altTag": "",
+                  "attributionText": "",
+                  "attributionUrl": "",
+                  "backgroundColor": "rgba(255,255,255,0)",
+                  "overlayColor": "rgba(255,255,255,0)"
+                }
+              },
+              "mediaFit": "Cover"
+            },
+            "height": 15,
+            "id": 5,
+            "type": "Media",
+            "width": 26,
+            "x": 0,
+            "y": 0,
+            "zIndex": 1
+          }
+        ],
+        "height": 33
+      }
+    }
+  ],
+  "riddleVersion": "",
+  "title": "Quiz: Afternoon trivia challenge Oct 16, 2026",
+  "type": "Quiz",
+  "uniqid": "ZAvycFMQ",
+  "publishedTimezone": "Australia/Brisbane"
+}

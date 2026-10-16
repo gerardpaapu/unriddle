@@ -1,4 +1,5 @@
 import * as htmlparser2 from "htmlparser2";
+import type { Document } from "domhandler";
 import type { IncomingMessage } from "node:http";
 
 const EMBED_ROUTE = /^\/embed\/a\/(.+)$/;
@@ -19,25 +20,62 @@ const NO_ADS_CONFIG = {
   isEnabled: true,
 };
 
+const FOOTER_BRANDING = {
+  link: "https://unstuff.absent.cloud",
+  logo: {
+    id: 698934,
+    type: "UploadImage",
+    source: {
+      originalUrl: "https://unriddle.absent.cloud/assets/unriddle.logo.png",
+      width: 70,
+      height: 70,
+      url: "https://unriddle.absent.cloud/assets/unriddle.logo.png",
+      shareUrl: "https://unriddle.absent.cloud/assets/unriddle.logo.png",
+    },
+    settings: {
+      altTag: "",
+      attributionText: "",
+      attributionUrl: "",
+      backgroundColor: "rgba(255,255,255,0)",
+      overlayColor: "rgba(255,255,255,0)",
+    },
+  },
+  logoPosition: "Right",
+  maxWidth: 70,
+  mediaOrientation: "Original",
+  type: "CustomLogo",
+};
+
 const disableAds = (config: any) => {
   config.preset.settings.ads = NO_ADS_CONFIG;
 };
 
-export const rewriteEmbedDocument = (rawHtml: string) => {
-  let dom = htmlparser2.parseDocument(rawHtml);
-  const metaScript = htmlparser2.DomUtils.getElementById("variable-meta", dom);
+const setCustomFooter = (config: any) => {
+  config.preset.settings.footerBranding = FOOTER_BRANDING;
+};
+
+function rewriteJsonData(dom: Document, id: string, mutate: (_: any) => void) {
+  const metaScript = htmlparser2.DomUtils.getElementById(id, dom);
   if (metaScript) {
     const json = htmlparser2.DomUtils.textContent(metaScript);
     const obj = JSON.parse(json);
-    disableAds(obj);
+    mutate(obj);
 
     const frag = htmlparser2.parseDocument(
-      `<script type="application/json" id="variable-meta">${JSON.stringify(obj)}</script>`,
+      `<script type="application/json" id="${id}">${JSON.stringify(obj)}</script>`,
     );
     const script = frag.childNodes[0];
-    console.log(`Rewrote the meta-variables`);
+
     htmlparser2.DomUtils.replaceElement(metaScript, script);
   }
+}
+
+export const rewriteEmbedDocument = (rawHtml: string) => {
+  let dom = htmlparser2.parseDocument(rawHtml);
+  rewriteJsonData(dom, "variable-meta", (vars) => {
+    disableAds(vars);
+    setCustomFooter(vars);
+  });
 
   return htmlparser2.DomUtils.getOuterHTML(dom);
 };

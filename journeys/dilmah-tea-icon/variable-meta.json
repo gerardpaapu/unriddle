@@ -1,0 +1,566 @@
+{
+  "type": "quiz",
+  "image": "https://cdn.riddle.com/embeds/v3/images/transformed/w_1240,h_700/a09/a0943d0d16b64e0bc5f855b82c2cba82.webp",
+  "title": "Quiz: Afternoon trivia challenge Oct 16, 2026",
+  "preset": {
+    "id": null,
+    "layoutId": "Standard",
+    "name": "",
+    "paletteUuid": "LuWg",
+    "riddleVersion": "1.0",
+    "palettes": [
+      {
+        "uuid": "LuWg",
+        "name": "Unified Stuff Daily ",
+        "answerBgColor": "#77baf6ff",
+        "answerCorrectBgColor": "rgba(118, 236, 130, 1)",
+        "answerSecondary": "rgba(0, 0, 0, 0.102)",
+        "answerSecondaryHover": "rgba(255, 255, 255, 1)",
+        "answerSelectedBgColor": "#FFFFFF",
+        "answerSelectedBgHoverColor": "#FFFFFF",
+        "answerSelectedTextColor": "#000000",
+        "answerWrongBgColor": "rgba(255, 203, 203, 1)",
+        "bgColor": "#FFFFFF",
+        "buttonColor": "rgba(141, 29, 232, 1)",
+        "buttonDisabledColor": "rgba(248, 240, 255, 1)",
+        "buttonTextColor": "#FFFFFF",
+        "choiceBgColor": "rgba(0, 0, 0, 0)",
+        "choiceTextColor": "#000000",
+        "customCss": "/* enlarge top bar text and score text */\n.riddle .top-bar .pager .pager-text, .riddle .live-score .pill__scoreText {\n    font-size: 1.5rem;\n}\n\n.riddle:not(.block-type-Swiper):not(.block-type-SpotTheDifference):not(.block-type-TapAndFind).has-media .top-bar .pager {\n    \n    --color-top-bar-media-bg: white;\n    --color-top-bar-media-text: black;\n}\n\n.riddle .image-embed::after {\n    content: 'Daily PM quiz';\n    position: absolute;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    bottom: 0;\n    left: 0;\n    right: 0;\n    text-align: center;\n    background: #D7CAF4;\n    color: #7D59C9;\n    text-transform: uppercase;\n    font-size: 1.3rem;\n    height: 20px;\n    z-index: 99;\n}\n\n.riddle .choice .image-embed::after {\n    content: none;\n}\n\n.riddle .live-score svg {\n    width: 14px;\n    height: 14px;\n}\n/* remove image attribition */\n.riddle .block .attribution, .riddle a.attribution {\n    display: none ;\n}\n\n\n/* remove 'More Information' */\n.riddle [data-test=\"answer-explanation\"] .icon {\n   display: none !important; \n}\n.riddle [data-test=\"answer-explanation\"] > h2:first-of-type {\n   display: none !important; \n}\n\n\n.riddle .choices .choice .choice-content .voting-result .voting-result-inner {\n    font-size: 1.3rem;\n    font-weight: 600;\n}\n\n/*.riddle .correct-wrong-banner-wrapper {*/\n/*    display: none !important;*/\n/*}*/\n\n.riddle .choices {\n    --color-answer-selected-bg: rgba(0, 0, 0, 0);\n    --color-choice-bg: rgba(0, 0, 0, 0);\n}\n\n.riddle .choice.is-selected:has(.is-wrong-answer) {\n    outline-color: #C70000;\n\n}\n\n.riddle .choice.is-selected:has(.is-correct-answer) {\n    outline-color: #058E1E;\n\n}\n\n.riddle .choice.is-selected .percentage-bar-wrapper:has(.wrong) {\n    background-color: #FFEBEB;\n}\n\n.riddle .choice.is-selected .percentage-bar-wrapper:has(.correct) {\n    background-color: #DDFADB;\n}\n\n.riddle .choice.is-selected .voting-result-inner:has(.percent.wrong.only) {\n    background-color: #C70000;\n    color: white;\n}\n\n.riddle .choice.is-selected .voting-result-inner:has(.percent.correct.only) {\n    background-color: #058E1E;\n    color: white;\n}\n\n/* right answer - not selected */\n.riddle .choice .voting-result-inner:has(.percent.correct.only) {\n    background-color: #DDFADB;\n    border-color: #058E1E;\n    color: #058E1E;\n\n}\n\n\n.riddle .btn:hover, .btn:focus, .btn:active {\n    transform: scale(1.05);\n}\n\n.riddle .answer-explanation {\n    background-color: white !important;\n}\n.riddle .first-row  {\n    --color-top-bar-media-bg: #636363 ;\n}\n.riddle .live-score .pill {\n    background-color: var(--color-top-bar-media-bg);\n}\n\n.riddle .explanation-btn {\n    background-color: white;\n    color: #8D1DE8;\n    border: 1px solid #8D1DE8;\n}\n\n.riddle .explanation-wrapper__navigation>.btn {\n    background-color: white;\n    color: #8D1DE8;\n    border: 1px solid #8D1DE8;\n}\n\n.riddle .block-wrapper[data-type='Media'] {\n    position: relative;\n    \n}\n.riddle .block-wrapper[data-type='Media'] div:first-child{\n    aspect-ratio:16 / 9;\n    \n}\n.riddle .block-wrapper[data-type='ResultScore'] {\n    position: absolute;\n    top: 10px;\n    right: 10px;\n    \n}\n\n.riddle .block[data-block-type-group=\"Result\"] .top-bar {\n    display:none;\n}\n\n\n.riddle svg .score {\n    fill: #8D1DE8;\n    font-size: 5rem !important;\n}\n/*.riddle svg g[data-v-72c8c293] {*/\n/*    transform: translateY(-10px);*/\n/*}*/\n\n.riddle svg text.max-score {\n    --color-text: #939393;\n    color: #939393;\n    fill: #939393;\n    font-size: 3rem !important;\n    font-weight: 500 !important;\n    transform: translateY(-15px);\n}\n\n/*.riddle svg .circle-bg, .riddle svg .circle-highlight {*/\n    /*stroke-width: 12px;*/\n/*}*/\n.riddle svg line {\n    stroke-width: 2px !important;\n    transform: translateY(-10px) !important;\n    stroke: #939393;\n}\n\n\n.riddle svg circle {\n    fill: transparent;\n}\n\n/*circle score backgroud */\n/*.riddle svg circle.circle-bg {*/\n/*    fill: rgba(0, 0, 0, .3) !important;*/\n/*}*/\n\n.riddle svg.circle-svg {\n    outline: 2px solid white;\n    border-radius: 50%;\n}\n\n.riddle svg .circle-highlight {\n    stroke: #A343F7 !important;\n}\n\n.riddle svg circle.bg {\n    fill: rgba(255, 255, 255, .8);\n}\n\n.riddle .page {\n    padding-bottom: 0 !important;\n}\n\n.riddle .replay-btn {\n    background-color: white !important;\n    --color-btn-text: #8D1DE8;\n    border: 1px solid #8D1DE8 !important;\n    border-radius: 40px !important;\n    text-transform: none !important;\n    font-size: 2rem !important;\n    padding: 30px 40px !important;\n    margin-top: 24px;\n    width: 300px;\n}\n\n.riddle .networks-list .share-button {\n    background-color: #A343F7 !important;\n}\n\n.riddle .networks-list .share-button:hover {\n    background-color: #D1A3FF !important;\n\n}\n.riddle .choices:not(.order).fixed-height {\n    overflow: auto;\n}\n\n@media (max-width:410px){\n    .riddle .result-score-inner {\n        transform: scale(.75);\n    }\n    .riddle a.button,.riddle .replay-btn {\n        padding: 20px 30px;\n    }\n}\n\n@media (max-width: 520px) {\n    .riddle .share-block  {\n        padding-top: 20px;\n    }\n}\n-",
+        "font": {
+          "fontBody": "STUFFSANSWEB-Regular",
+          "fontButton": "STUFFSANSWEB-Regular",
+          "fontChoice": "STUFFSANSWEB-Regular",
+          "fontHeader": "STUFFSANSWEB-SemiBold",
+          "name": "custom",
+          "provider": "Custom",
+          "vars": {
+            "families": "Stuff Sans",
+            "id": "",
+            "projectId": "",
+            "urls": "https://cdn.riddle.com/website/fonts/stuff/stuff.css"
+          }
+        },
+        "footerColor": "$bgColor",
+        "footerTextColor": "#000000",
+        "isBlockPillVisible": false,
+        "isBlurredBgImageVisible": false,
+        "linkColor": "#000000",
+        "negativeColor": "#F17076",
+        "otherAnswerBgColor": "#FFFFFF",
+        "positiveColor": "rgba(118, 236, 130, 1)",
+        "riddleBorderRadius": 8,
+        "secondaryColor": "#00205B",
+        "secondaryTextColor": "#ffffffff",
+        "textColor": "rgba(0, 0, 0, 1)",
+        "votingResultPositiveText": "#ffffff",
+        "topBarBg": "rgba(222, 222, 222, 1)",
+        "topBarText": "#000000",
+        "topBarMediaBg": "rgba(255, 255, 255, 0.1)",
+        "topBarMediaText": "#ffffff",
+        "answerMediaBarBgColor": "#ffffff",
+        "isImageInBgDisplayed": false
+      },
+      {
+        "uuid": "vmkH",
+        "name": "Unified Dark daily am",
+        "answerBgColor": "#77baf6ff",
+        "answerCorrectBgColor": "#00A57E",
+        "answerSecondary": "#D1A3FF",
+        "answerSecondaryHover": "#280770",
+        "answerSelectedBgColor": "#3A1380",
+        "answerSelectedBgHoverColor": "#280770",
+        "answerSelectedTextColor": "#FFFFFF",
+        "answerWrongBgColor": "#AD0058",
+        "bgColor": "#280770",
+        "buttonColor": "rgba(141, 29, 232, 1)",
+        "buttonDisabledColor": "rgba(248, 240, 255, 1)",
+        "buttonTextColor": "rgba(255, 255, 255, 1)",
+        "choiceBgColor": "#3A138D",
+        "choiceTextColor": "#EEE9FB",
+        "customCss": "/* enlarge top bar text and score text */\n.riddle .top-bar .pager .pager-text, .riddle .live-score .pill__scoreText {\n    font-size: 1.5rem;\n}\n\n.riddle:not(.block-type-Swiper):not(.block-type-SpotTheDifference):not(.block-type-TapAndFind).has-media .top-bar .pager {\n    \n    --color-top-bar-media-bg: white;\n    --color-top-bar-media-text: black;\n}\n\n\n.riddle .image-embed::after {\n    /*content: 'Daily PM quiz';*/\n    /*background: #D7CAF4;*/\n    /*color: #7D59C9;*/\n    content: 'Daily AM quiz';\n    background: #FFF08D;\n    color:#000000;\n    position: absolute;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    bottom: 0;\n    left: 0;\n    right: 0;\n    text-align: center;\n    text-transform: uppercase;\n    font-size: 1.3rem;\n    height: 20px;\n    z-index: 99;\n}\n\n.riddle .live-score svg {\n    width: 14px;\n    height: 14px;\n}\n/* remove image attribition */\n.riddle .block .attribution {\n    display: none ;\n}8\n\n.riddle .choices .choice .choice-content .voting-result .voting-result-inner {\n    font-size: 1.3rem;\n    font-weight: 600;\n}\n\n/*.riddle .correct-wrong-banner-wrapper {*/\n/*    display: none !important;*/\n/*}*/\n/* \n  .riddle .choices {\n    --color-answer-selected-bg: rgba(0, 0, 0, 0);\n    --color-choice-bg: rgba(0, 0, 0, 0);\n}\n*/\n.riddle .choice.is-selected:has(.is-wrong-answer) {\n    outline-color: #ffffff;\n\n}\n\n.riddle .choice.is-selected:has(.is-correct-answer) {\n    outline-color: #ffffff;\n\n}\n/* \n.riddle .choice.is-selected .percentage-bar-wrapper:has(.wrong) {\n    background-color: #FFEBEB;\n}\n\n.riddle .choice.is-selected .percentage-bar-wrapper:has(.correct) {\n    background-color: #DDFADB;\n}\n*/\n.riddle .choice.is-selected .voting-result-inner:has(.percent.wrong.only) {\n    background-color: #D6126F;\n    color: white;\n    border-color: white;\n}\n\n.riddle .choice.is-selected .voting-result-inner:has(.percent.correct.only) {\n    background-color: #24CB90;\n    color: white;\n    border-color: white;\n}\n\n/* right answer - not selected */\n.riddle .choice .voting-result-inner:has(.percent.correct.only) {\n    background-color: #DDFADB;\n    border-color: #058E1E;\n    color: #058E1E;\n\n}\n\n\n.riddle .btn:hover, .btn:focus, .btn:active {\n    transform: scale(1.05);\n}\n\n.riddle .answer-explanation {\n    background-color: #623AB8 !important;\n}\n.riddle .first-row  {\n    --color-top-bar-media-bg: #636363 ;\n}\n.riddle .live-score .pill {\n    background-color: var(--color-top-bar-media-bg);\n}\n\n.riddle .explanation-btn {\n    background-color: white;\n    color: #8D1DE8;\n    border: 1px solid #8D1DE8;\n}\n\n.riddle .explanation-wrapper__navigation>.btn {\n    background-color: white;\n    color: #8D1DE8;\n    border: 1px solid #8D1DE8;\n}\n\n.riddle .block-wrapper[data-type='Media'] {\n    position: relative;\n    \n}\n.riddle .block-wrapper[data-type='Media'] div:first-child{\n    aspect-ratio:16 / 9;\n    \n}\n.riddle .block-wrapper[data-type='ResultScore'] {\n    position: absolute;\n    top: 10px;\n    right: 10px;\n    \n}\n\n.riddle .block[data-block-type-group=\"Result\"] .top-bar {\n    display:none;\n}\n\n\n.riddle svg .score {\n    fill: #8D1DE8;\n    font-size: 5rem !important;\n}\n/*.riddle svg g[data-v-72c8c293] {*/\n/*    transform: translateY(-10px);*/\n/*}*/\n\n.riddle svg text.max-score {\n    --color-text: #939393;\n    color: #939393;\n    fill: #939393;\n    font-size: 3rem !important;\n    font-weight: 500 !important;\n    transform: translateY(-15px);\n}\n\n/*.riddle svg .circle-bg, .riddle svg .circle-highlight {*/\n    /*stroke-width: 12px;*/\n/*}*/\n.riddle svg line {\n    stroke-width: 2px !important;\n    transform: translateY(-10px) !important;\n    stroke: #939393;\n}\n\n\n.riddle svg circle {\n    fill: transparent;\n}\n\n/*circle score backgroud */\n/*.riddle svg circle.circle-bg {*/\n/*    fill: rgba(0, 0, 0, .3) !important;*/\n/*}*/\n\n.riddle svg.circle-svg {\n    outline: 2px solid white;\n    border-radius: 50%;\n}\n\n.riddle svg .circle-highlight {\n    stroke: #A343F7 !important;\n}\n\n.riddle svg circle.bg {\n    fill: rgba(255, 255, 255, .8);\n}\n\n.riddle .page {\n    padding-bottom: 0 !important;\n}\n\n.riddle .replay-btn {\n    background-color: white !important;\n    --color-btn-text: #8D1DE8;\n    border: 1px solid #8D1DE8 !important;\n    border-radius: 40px !important;\n    text-transform: none !important;\n    font-size: 2rem !important;\n    padding: 30px 40px !important;\n    margin-top: 24px;\n    width: 300px;\n}\n\n.riddle .networks-list .share-button {\n    background-color: #A343F7 !important;\n}\n\n.riddle .networks-list .share-button:hover {\n    background-color: #D1A3FF !important;\n\n}\n\n.riddle .choices:not(.order).fixed-height {\n    overflow: auto;\n}\n\n@media (max-width:410px){\n    .riddle .result-score-inner {\n        transform: scale(.75);\n    }\n    .riddle a.button,.riddle .replay-btn {\n        padding: 20px 30px;\n    }\n}\n\n@media (max-width: 520px) {\n    .riddle .share-block  {\n        padding-top: 20px;\n    }\n}\n",
+        "font": {
+          "fontBody": "STUFFSANSWEB-Regular",
+          "fontButton": "STUFFSANSWEB-Regular",
+          "fontChoice": "STUFFSANSWEB-Regular",
+          "fontHeader": "STUFFSANSWEB-SemiBold",
+          "name": "custom",
+          "provider": "Custom",
+          "vars": {
+            "families": "Stuff Sans",
+            "id": "",
+            "projectId": "",
+            "urls": "https://cdn.riddle.com/website/fonts/stuff/stuff.css"
+          }
+        },
+        "footerColor": "$bgColor",
+        "footerTextColor": "#000000",
+        "isBlockPillVisible": false,
+        "isBlurredBgImageVisible": false,
+        "linkColor": "#EEE9FB",
+        "negativeColor": "#D6126F",
+        "otherAnswerBgColor": "rgba(255, 255, 255, 0)",
+        "positiveColor": "rgba(118, 236, 130, 1)",
+        "riddleBorderRadius": 8,
+        "secondaryColor": "#00205B",
+        "secondaryTextColor": "#ffffffff",
+        "textColor": "#EEE9FB",
+        "votingResultPositiveText": "#ffffff",
+        "topBarBg": "rgba(222, 222, 222, 1)",
+        "topBarText": "#000000",
+        "topBarMediaBg": "rgba(255, 255, 255, 0.1)",
+        "topBarMediaText": "#ffffff",
+        "answerMediaBarBgColor": "#ffffff",
+        "isImageInBgDisplayed": false
+      },
+      {
+        "uuid": "UAnh",
+        "name": "Unified Daily Dark PM",
+        "answerBgColor": "#77baf6ff",
+        "answerCorrectBgColor": "#00A57E",
+        "answerSecondary": "#D1A3FF",
+        "answerSecondaryHover": "#280770",
+        "answerSelectedBgColor": "#3A1380",
+        "answerSelectedBgHoverColor": "#280770",
+        "answerSelectedTextColor": "#FFFFFF",
+        "answerWrongBgColor": "#AD0058",
+        "bgColor": "#280770",
+        "buttonColor": "rgba(141, 29, 232, 1)",
+        "buttonDisabledColor": "rgba(248, 240, 255, 1)",
+        "buttonTextColor": "rgba(255, 255, 255, 1)",
+        "choiceBgColor": "#3A138D",
+        "choiceTextColor": "#EEE9FB",
+        "customCss": "/* enlarge top bar text and score text */\n.riddle .top-bar .pager .pager-text, .riddle .live-score .pill__scoreText {\n    font-size: 1.5rem;\n}\n\n.riddle:not(.block-type-Swiper):not(.block-type-SpotTheDifference):not(.block-type-TapAndFind).has-media .top-bar .pager {\n    \n    --color-top-bar-media-bg: white;\n    --color-top-bar-media-text: black;\n}\n\n\n.riddle .image-embed::after {\n    content: 'Daily PM quiz';\n    background: #D7CAF4;\n    color: #7D59C9;\n    /*content: 'Daily AM quiz';*/\n    /*background: #FFF08D;*/\n    /*color:#000000;*/\n    position: absolute;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    bottom: 0;\n    left: 0;\n    right: 0;\n    text-align: center;\n    text-transform: uppercase;\n    font-size: 1.3rem;\n    height: 20px;\n    z-index: 99;\n}\n\n.riddle .choice .image-embed::after {\n    content: none;\n}\n\n.riddle .live-score svg {\n    width: 14px;\n    height: 14px;\n}\n/* remove image attribition */\n.riddle .block .attribution, .riddle a.attribution {\n    display: none ;\n}\n\n.riddle .choices .choice .choice-content .voting-result .voting-result-inner {\n    font-size: 1.3rem;\n    font-weight: 600;\n}\n\n/*.riddle .correct-wrong-banner-wrapper {*/\n/*    display: none !important;*/\n/*}*/\n/* \n  .riddle .choices {\n    --color-answer-selected-bg: rgba(0, 0, 0, 0);\n    --color-choice-bg: rgba(0, 0, 0, 0);\n}\n*/\n.riddle .choice.is-selected:has(.is-wrong-answer) {\n    outline-color: #ffffff;\n\n}\n\n.riddle .choice.is-selected:has(.is-correct-answer) {\n    outline-color: #ffffff;\n\n}\n/* \n.riddle .choice.is-selected .percentage-bar-wrapper:has(.wrong) {\n    background-color: #FFEBEB;\n}\n\n.riddle .choice.is-selected .percentage-bar-wrapper:has(.correct) {\n    background-color: #DDFADB;\n}\n*/\n.riddle .choice.is-selected .voting-result-inner:has(.percent.wrong.only) {\n    background-color: #D6126F;\n    color: white;\n    border-color: white;\n}\n\n.riddle .choice.is-selected .voting-result-inner:has(.percent.correct.only) {\n    background-color: #24CB90;\n    color: white;\n    border-color: white;\n}\n\n/* right answer - not selected */\n.riddle .choice .voting-result-inner:has(.percent.correct.only) {\n    background-color: #DDFADB;\n    border-color: #058E1E;\n    color: #058E1E;\n\n}\n\n\n.riddle .btn:hover, .btn:focus, .btn:active {\n    transform: scale(1.05);\n}\n\n.riddle .answer-explanation {\n    background-color: #623AB8 !important;\n}\n.riddle .first-row  {\n    --color-top-bar-media-bg: #636363 ;\n}\n.riddle .live-score .pill {\n    background-color: var(--color-top-bar-media-bg);\n}\n\n.riddle .explanation-btn {\n    background-color: white;\n    color: #8D1DE8;\n    border: 1px solid #8D1DE8;\n}\n\n.riddle .explanation-wrapper__navigation>.btn {\n    background-color: white;\n    color: #8D1DE8;\n    border: 1px solid #8D1DE8;\n}\n\n.riddle .block-wrapper[data-type='Media'] {\n    position: relative;\n    \n}\n.riddle .block-wrapper[data-type='Media'] div:first-child{\n    aspect-ratio:16 / 9;\n    \n}\n.riddle .block-wrapper[data-type='ResultScore'] {\n    position: absolute;\n    top: 10px;\n    right: 10px;\n    \n}\n\n.riddle .block[data-block-type-group=\"Result\"] .top-bar {\n    display:none;\n}\n\n\n.riddle svg .score {\n    fill: #8D1DE8;\n    font-size: 5rem !important;\n}\n/*.riddle svg g[data-v-72c8c293] {*/\n/*    transform: translateY(-10px);*/\n/*}*/\n\n.riddle svg text.max-score {\n    --color-text: #939393;\n    color: #939393;\n    fill: #939393;\n    font-size: 3rem !important;\n    font-weight: 500 !important;\n    transform: translateY(-15px);\n}\n\n/*.riddle svg .circle-bg, .riddle svg .circle-highlight {*/\n    /*stroke-width: 12px;*/\n/*}*/\n.riddle svg line {\n    stroke-width: 2px !important;\n    transform: translateY(-10px) !important;\n    stroke: #939393;\n}\n\n\n.riddle svg circle {\n    fill: transparent;\n}\n\n/*circle score backgroud */\n/*.riddle svg circle.circle-bg {*/\n/*    fill: rgba(0, 0, 0, .3) !important;*/\n/*}*/\n\n.riddle svg.circle-svg {\n    outline: 2px solid white;\n    border-radius: 50%;\n}\n\n.riddle svg .circle-highlight {\n    stroke: #A343F7 !important;\n}\n\n.riddle svg circle.bg {\n    fill: rgba(255, 255, 255, .8);\n}\n\n.riddle .page {\n    padding-bottom: 0 !important;\n}\n\n.riddle .replay-btn {\n    background-color: white !important;\n    --color-btn-text: #8D1DE8;\n    border: 1px solid #8D1DE8 !important;\n    border-radius: 40px !important;\n    text-transform: none !important;\n    font-size: 2rem !important;\n    padding: 30px 40px !important;\n    margin-top: 24px;\n    width: 300px;\n}\n\n.riddle .networks-list .share-button {\n    background-color: #A343F7 !important;\n}\n\n.riddle .networks-list .share-button:hover {\n    background-color: #D1A3FF !important;\n\n}\n\n.riddle .choices:not(.order).fixed-height {\n    overflow: auto;\n}\n\n@media (max-width:410px){\n    .riddle .result-score-inner {\n        transform: scale(.75);\n    }\n    .riddle a.button,.riddle .replay-btn {\n        padding: 20px 30px;\n    }\n}\n\n@media (max-width: 520px) {\n    .riddle .share-block  {\n        padding-top: 20px;\n    }\n}\n",
+        "font": {
+          "fontBody": "STUFFSANSWEB-Regular",
+          "fontButton": "STUFFSANSWEB-Regular",
+          "fontChoice": "STUFFSANSWEB-Regular",
+          "fontHeader": "STUFFSANSWEB-SemiBold",
+          "name": "custom",
+          "provider": "Custom",
+          "vars": {
+            "families": "Stuff Sans",
+            "id": "",
+            "projectId": "",
+            "urls": "https://cdn.riddle.com/website/fonts/stuff/stuff.css"
+          }
+        },
+        "footerColor": "$bgColor",
+        "footerTextColor": "#000000",
+        "isBlockPillVisible": false,
+        "isBlurredBgImageVisible": false,
+        "linkColor": "#EEE9FB",
+        "negativeColor": "#D6126F",
+        "otherAnswerBgColor": "rgba(255, 255, 255, 0)",
+        "positiveColor": "rgba(118, 236, 130, 1)",
+        "riddleBorderRadius": 8,
+        "secondaryColor": "#00205B",
+        "secondaryTextColor": "#ffffffff",
+        "textColor": "#EEE9FB",
+        "votingResultPositiveText": "#ffffff",
+        "topBarBg": "rgba(222, 222, 222, 1)",
+        "topBarText": "#000000",
+        "topBarMediaBg": "rgba(255, 255, 255, 0.1)",
+        "topBarMediaText": "#ffffff",
+        "answerMediaBarBgColor": "#ffffff",
+        "isImageInBgDisplayed": false
+      }
+    ],
+    "settings": {
+      "customStrings": {
+        "chooseBtn": "",
+        "correctAnswerText": "",
+        "formSkipBtn": "",
+        "formSubmitBtn": "",
+        "isEnabled": true,
+        "nextBtn": "",
+        "skipBtn": "",
+        "startBtn": "",
+        "startOverBtn": "",
+        "wrongAnswerText": "Incorrect",
+        "chooseAgainBtn": "",
+        "giveUpBtn": ""
+      },
+      "footerBranding": {
+        "link": "https://sponsoredinteractive.stuff.co.nz/a-better-cup-shared/index.html",
+        "logo": {
+          "id": 698934,
+          "type": "UploadImage",
+          "source": {
+            "originalUrl": "https://cdn.riddle.com/embeds/v3/images/originals/q_80/c82/c8253d9e67bfe9e8e1fd1b96dcfe7507.webp",
+            "width": 500,
+            "height": 500,
+            "url": "https://cdn.riddle.com/embeds/v3/images/transformed/w_500,h_500/3ff/3ff01e825c5b45b0c9d41c7405b5d7e2.webp",
+            "shareUrl": "https://cdn.riddle.com/embeds/v3/images/transformed/w_500,h_500/3ff/3ff01e825c5b45b0c9d41c7405b5d7e2.webp"
+          },
+          "settings": {
+            "altTag": "",
+            "attributionText": "",
+            "attributionUrl": "",
+            "backgroundColor": "rgba(255,255,255,0)",
+            "overlayColor": "rgba(255,255,255,0)"
+          }
+        },
+        "logoPosition": "Right",
+        "maxWidth": 70,
+        "mediaOrientation": "Original",
+        "type": "CustomLogo"
+      },
+      "footerText": {
+        "isEnabled": false,
+        "isOnAllBlocksEnabled": false,
+        "text": ""
+      },
+      "oneVotePerIdentifier": {
+        "isEnabled": false,
+        "timePeriod": "NoRefresh",
+        "wasEnabled": false
+      },
+      "isRiddleFooterVisible": false,
+      "language": "en",
+      "ads": {
+        "/* Ads disabled by the ads disabler */": true,
+        "adBottom": {
+          "ad": {
+            "iframeAdConfig": null,
+            "teamAdConfig": { "slotId": 1, "variables": [] }
+          },
+          "isEnabled": true
+        },
+        "adTop": {
+          "ad": { "iframeAdConfig": null, "teamAdConfig": null },
+          "isEnabled": false
+        },
+        "isEnabled": true
+      },
+      "displayLiveScore": {
+        "isEnabled": true,
+        "isOnlyOnQuestionBlocksEnabled": true,
+        "isOnResultPageEnabled": true,
+        "type": "RawTotal"
+      },
+      "isAutoAdvance": false,
+      "isChooseButtonVisible": false,
+      "isEmailBlocklistEnabled": false,
+      "isExternalContentBannerEnabled": false,
+      "isRiddleOpen": true,
+      "isTimerWarmupEnabled": false,
+      "mediaOrientation": "Wide",
+      "pagination": {
+        "isBackNavigationEnabled": false,
+        "isEnabled": true,
+        "isOnlyOnQuestionBlocksEnabled": true,
+        "paginationStyle": "Unsegmented",
+        "pagerIsEnabled": true,
+        "progressBarIsEnabled": false
+      },
+      "privacyTextButton": "",
+      "privacyTextTwitter": "",
+      "privacyTextVimeo": "",
+      "privacyTextYoutube": "",
+      "quizRightWrongDisplay": {
+        "isConfettiEnabled": false,
+        "isEnabled": true,
+        "isMsgEnabled": false,
+        "isVisualBrieflyEnabled": true,
+        "isVisualEnabled": true
+      },
+      "rememberUser": {
+        "isAutoSubmitEnabled": true,
+        "isCreatorDsgvoAccepted": false,
+        "isEnabled": false,
+        "isPIDOnly": false,
+        "isUserPermissionRequired": true
+      },
+      "resultsOnBlocks": {
+        "areTotalVotesVisible": false,
+        "isPercentageVisible": true,
+        "isResultOnBlocksVisible": true,
+        "isVotesNumberVisible": false
+      },
+      "statsBeforeVoting": {
+        "areStatsBeforeVotingVisible": false,
+        "areCompletionsBeforeVotingVisible": false,
+        "areViewsBeforeVotingVisible": false
+      },
+      "riddleAutoClose": {
+        "date": null,
+        "isEnabled": false,
+        "riddleClosedBlock": { "blockId": null, "isEnabled": false }
+      },
+      "riddleAutoOpen": { "date": null, "isEnabled": false },
+      "riddleIpLimit": {
+        "countLimit": 1,
+        "isEnabled": false,
+        "timePeriod": "OneDay"
+      },
+      "riddleSingleVote": {
+        "isEnabled": false,
+        "isVoteAgainEnabled": true,
+        "timePeriod": "NoRefresh"
+      },
+      "timerBlock": {
+        "areIndividualTimesEnabled": false,
+        "format": "s",
+        "individualTimes": [],
+        "isEnabled": false,
+        "isPauseOnNonRiddleBlocksEnabled": false,
+        "shape": "barTimer",
+        "timeLimit": 30,
+        "warningAt": 10
+      },
+      "timerRiddle": {
+        "format": "s",
+        "isAutoPauseEnabled": true,
+        "isEnabled": false,
+        "isPauseOnNonRiddleBlocksEnabled": false,
+        "shape": "barTimer",
+        "timeLimit": 30,
+        "warningAt": 10
+      },
+      "timerWarmupTime": 3
+    }
+  },
+  "logic": {
+    "initialBlockIds": [
+      8, 1, 4, 2, 3, 6, 7, 24, 9, 10, 5, 12, 14, 15, 11, 13, 25
+    ],
+    "initialLogicBlockIds": [
+      0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16
+    ],
+    "isLinear": true,
+    "maxAchievableScore": 15
+  },
+  "publishSettings": {
+    "privacy": {
+      "doubleOptIn": {
+        "confirmationBody": "",
+        "confirmationHeadline": "",
+        "customConfirmationPageUrl": "",
+        "emailBody": "",
+        "emailConfirmationButton": "",
+        "emailFieldIdentifier": null,
+        "emailSubject": "",
+        "isCustomConfirmationPageEnabled": false,
+        "isEnabled": false,
+        "isSaveUnconfirmedEnabled": false,
+        "isSmtpEnabled": false
+      },
+      "otp": {
+        "emailFieldIdentifier": null,
+        "isEnabled": false,
+        "isSaveUnconfirmedEnabled": false,
+        "isSmtpEnabled": false
+      },
+      "otpSMS": {
+        "isEnabled": false,
+        "isSaveUnconfirmedEnabled": false,
+        "phoneFieldIdentifier": null,
+        "vendor": "WebSMS",
+        "vendorApiKey": ""
+      }
+    },
+    "riddleTracking": {
+      "adobe": {
+        "customNetworkConfig": {
+          "isEnabled": false,
+          "networkObjectName": ""
+        },
+        "eventConfig": {
+          "Block_Next": true,
+          "Block_Skip": true,
+          "Block_Submit": true,
+          "Block_View": true,
+          "CoreMetrics_Finish": true,
+          "CoreMetrics_Start": true,
+          "CoreMetrics_View": true,
+          "Cta": true,
+          "Form_Skip": true,
+          "Form_Submit": true,
+          "isEnabled": false,
+          "isIncludeDataLayerEnabled": true,
+          "isIncludeFormDataEnabled": false,
+          "LeadSettings": true,
+          "Social": true
+        },
+        "isEnabled": false
+      },
+      "customTracking": {
+        "eventConfig": {
+          "Block_Next": true,
+          "Block_Skip": true,
+          "Block_Submit": true,
+          "Block_View": true,
+          "CoreMetrics_Finish": true,
+          "CoreMetrics_Start": true,
+          "CoreMetrics_View": true,
+          "Cta": true,
+          "Form_Skip": true,
+          "Form_Submit": true,
+          "isEnabled": false,
+          "isIncludeDataLayerEnabled": true,
+          "isIncludeFormDataEnabled": false,
+          "LeadSettings": true,
+          "Social": true
+        },
+        "eventFunction": "(riddleEvent) => { \n    // this function is called on every event \n    // riddleEvent.category: \"RiddleTrackEvent_5Ifo0Dc\" \n    // riddleEvent.action: \"CoreMetrics\" \n    // riddleEvent.name: \"Start\" \n    // riddleEvent.riddleId: \"5Ifo0Dc\" \n    console.log(\"Riddle Event: \", riddleEvent); \n};",
+        "isEnabled": false
+      },
+      "facebookPixel": {
+        "customNetworkConfig": {
+          "isEnabled": false,
+          "networkObjectName": ""
+        },
+        "eventConfig": {
+          "Block_Next": true,
+          "Block_Skip": true,
+          "Block_Submit": true,
+          "Block_View": true,
+          "CoreMetrics_Finish": true,
+          "CoreMetrics_Start": true,
+          "CoreMetrics_View": true,
+          "Cta": true,
+          "Form_Skip": true,
+          "Form_Submit": true,
+          "isEnabled": false,
+          "isIncludeDataLayerEnabled": true,
+          "isIncludeFormDataEnabled": false,
+          "LeadSettings": true,
+          "Social": true
+        },
+        "isEnabled": false
+      },
+      "googleAnalytics": {
+        "customNetworkConfig": {
+          "isEnabled": false,
+          "networkObjectName": ""
+        },
+        "eventConfig": {
+          "Block_Next": true,
+          "Block_Skip": true,
+          "Block_Submit": true,
+          "Block_View": true,
+          "CoreMetrics_Finish": true,
+          "CoreMetrics_Start": true,
+          "CoreMetrics_View": true,
+          "Cta": true,
+          "Form_Skip": true,
+          "Form_Submit": true,
+          "isEnabled": false,
+          "isIncludeDataLayerEnabled": true,
+          "isIncludeFormDataEnabled": false,
+          "LeadSettings": true,
+          "Social": true
+        },
+        "isEnabled": false
+      },
+      "googleAnalytics4": {
+        "customNetworkConfig": {
+          "isEnabled": false,
+          "networkObjectName": ""
+        },
+        "eventConfig": {
+          "Block_Next": true,
+          "Block_Skip": true,
+          "Block_Submit": true,
+          "Block_View": true,
+          "CoreMetrics_Finish": true,
+          "CoreMetrics_Start": true,
+          "CoreMetrics_View": true,
+          "Cta": true,
+          "Form_Skip": true,
+          "Form_Submit": true,
+          "isEnabled": false,
+          "isIncludeDataLayerEnabled": true,
+          "isIncludeFormDataEnabled": false,
+          "LeadSettings": true,
+          "Social": true
+        },
+        "isEnabled": false
+      },
+      "googleTagManager": {
+        "customNetworkConfig": {
+          "isEnabled": false,
+          "networkObjectName": ""
+        },
+        "eventConfig": {
+          "Block_Next": true,
+          "Block_Skip": true,
+          "Block_Submit": true,
+          "Block_View": true,
+          "CoreMetrics_Finish": true,
+          "CoreMetrics_Start": true,
+          "CoreMetrics_View": true,
+          "Cta": true,
+          "Form_Skip": true,
+          "Form_Submit": true,
+          "isEnabled": false,
+          "isIncludeDataLayerEnabled": true,
+          "isIncludeFormDataEnabled": false,
+          "LeadSettings": true,
+          "Social": true
+        },
+        "isEnabled": false
+      },
+      "matomoTag": {
+        "customNetworkConfig": {
+          "isEnabled": false,
+          "networkObjectName": ""
+        },
+        "eventConfig": {
+          "Block_Next": true,
+          "Block_Skip": true,
+          "Block_Submit": true,
+          "Block_View": true,
+          "CoreMetrics_Finish": true,
+          "CoreMetrics_Start": true,
+          "CoreMetrics_View": true,
+          "Cta": true,
+          "Form_Skip": true,
+          "Form_Submit": true,
+          "isEnabled": false,
+          "isIncludeDataLayerEnabled": true,
+          "isIncludeFormDataEnabled": false,
+          "LeadSettings": true,
+          "Social": true
+        },
+        "isEnabled": false
+      }
+    },
+    "saveWithRiddle": { "identifier": { "id": null } },
+    "dataLayer": {
+      "dataLayerItems": [],
+      "exampleUrl": null,
+      "isChangePaletteEnabled": false,
+      "isSubmitViaDataLayerEnabled": false
+    },
+    "embedCode": {
+      "autoScroll": {
+        "isEnabled": true,
+        "isOffsetEnabled": false,
+        "offset": 80
+      },
+      "isFixedHeightEnabled": false
+    }
+  },
+  "ads": {
+    "blocks": {
+      "24": {
+        "id": 24,
+        "type": "team",
+        "config": { "slotId": 1, "variables": [] }
+      },
+      "25": {
+        "id": 25,
+        "type": "team",
+        "config": { "slotId": 1, "variables": [] }
+      }
+    },
+    "top": [],
+    "bottom": {
+      "type": "team",
+      "config": { "slotId": 1, "variables": [] }
+    }
+  },
+  "versionHash": null
+}

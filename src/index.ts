@@ -59,6 +59,8 @@ const proxy = createProxyMiddleware({
   },
 });
 
+app.get(`/assets`, express.static("./assets"));
+
 app.get(`/embed/embed-api/ads/{*rest}`, (req, res) => {
   res.type("html").send(`<html> 
   <head>
